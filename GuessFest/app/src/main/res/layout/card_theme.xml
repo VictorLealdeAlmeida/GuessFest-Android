@@ -21,6 +21,7 @@
             android:id="@+id/theme_image"
             android:layout_width="match_parent"
             android:layout_height="200dp"
+            android:background="#E9296D"
             android:contentDescription="Foto do Produto"
             android:src="@drawable/soccer_on" />
 
@@ -29,8 +30,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:gravity="left"
-            android:text="R$ 150,00"
+            android:background="#E9296D"
+            android:gravity="center"
+            android:text="Nome do tema"
+            android:textColor="#000428"
             android:textSize="25sp"
             android:textStyle="bold" />
 
@@ -39,8 +42,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:gravity="left"
-            android:text="Blusa azul"
+            android:background="#E9296D"
+            android:gravity="center"
+            android:text="Categoria"
+            android:textColor="#000428"
             android:textSize="20sp" />
 
 
