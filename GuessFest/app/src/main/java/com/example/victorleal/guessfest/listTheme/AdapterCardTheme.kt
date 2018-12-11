@@ -14,6 +14,7 @@ import com.example.victorleal.guessfest.R
 import kotlinx.android.synthetic.main.card_theme.view.*
 
 
+
 class AdapterCardTheme (private val themes: List<ThemeItem>, private val context: Context): RecyclerView.Adapter<AdapterCardTheme.ViewHolderProduct>() {
 
     class ViewHolderProduct(itemView: View): RecyclerView.ViewHolder(itemView) {
@@ -35,35 +36,18 @@ class AdapterCardTheme (private val themes: List<ThemeItem>, private val context
     }
 
     override fun onBindViewHolder(holder: ViewHolderProduct, position: Int) {
-        val thems = themes[position]
-        holder.categories.text = thems.title
+        val them = themes[position]
+        holder.categories.text = them.title
+        holder.name.text = them.value
+        holder.image.setImageResource(them.image)
 
-
-        holder.name.text = thems.value
-
-
-
-        holder.image.setImageResource(thems.image)
-    }
-
-    private inner class DownloadImageTask(internal var bmImage: ImageView) : AsyncTask<String, Void, Bitmap>() {
-
-        override fun doInBackground(vararg urls: String): Bitmap? {
-            val urldisplay = urls[0]
-            var mIcon11: Bitmap? = null
-            try {
-                val `in` = java.net.URL(urldisplay).openStream()
-                mIcon11 = BitmapFactory.decodeStream(`in`)
-            } catch (e: Exception) {
-                Log.e("Error", e.message)
-                e.printStackTrace()
-            }
-
-            return mIcon11
+        holder.image.setOnClickListener {
+            Log.i("Clicou",them.title)
         }
 
-        override fun onPostExecute(result: Bitmap) {
-            bmImage.setImageBitmap(result)
-        }
     }
+
+
+
+
 }
