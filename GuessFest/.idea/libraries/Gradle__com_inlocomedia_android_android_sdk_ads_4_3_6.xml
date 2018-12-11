@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.inlocomedia.android:android-sdk-ads-4.3.6">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-sdk-ads-4.3.6.aar/3a749834605617e632b2cefc624bc005/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-sdk-ads-4.3.6.aar/3a749834605617e632b2cefc624bc005/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-sdk-ads-4.3.6.aar/3a749834605617e632b2cefc624bc005/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.inlocomedia.android/android-sdk-ads/4.3.6/13565f6ec6ddb1b0c2e2cb7c11de8be7553d5a57/android-sdk-ads-4.3.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
