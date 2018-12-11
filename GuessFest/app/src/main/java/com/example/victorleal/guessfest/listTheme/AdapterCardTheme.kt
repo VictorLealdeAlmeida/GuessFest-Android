@@ -1,6 +1,7 @@
 package com.example.victorleal.guessfest.listTheme
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.os.AsyncTask
@@ -11,11 +12,13 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.support.v7.widget.RecyclerView
 import com.example.victorleal.guessfest.R
+import com.example.victorleal.guessfest.currentGame.GameController
 import kotlinx.android.synthetic.main.card_theme.view.*
+import android.support.v7.app.AppCompatActivity
+import android.support.v4.content.ContextCompat
 
 
-
-class AdapterCardTheme (private val themes: List<ThemeItem>, private val context: Context): RecyclerView.Adapter<AdapterCardTheme.ViewHolderProduct>() {
+class AdapterCardTheme (private val themes: List<ThemeItem>, private val context: Context): RecyclerView.Adapter<AdapterCardTheme.ViewHolderProduct>(){
 
     class ViewHolderProduct(itemView: View): RecyclerView.ViewHolder(itemView) {
         // utilizado para referenciar os campos do layout, para assim poderem ser alterados em onBindViewHolder
@@ -41,8 +44,23 @@ class AdapterCardTheme (private val themes: List<ThemeItem>, private val context
         holder.name.text = them.value
         holder.image.setImageResource(them.image)
 
+
         holder.image.setOnClickListener {
             Log.i("Clicou",them.title)
+            val intent = Intent(context, com.example.victorleal.guessfest.currentGame.GameController :: class.java)
+
+            Log.i("Contexx",intent.toString())
+
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            intent.putExtra("THEME_NAME", them.title);
+
+
+            context.startActivity(intent)
+
+
+
+
+
         }
 
     }
