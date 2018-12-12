@@ -4,59 +4,100 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000428"
+    android:background="@drawable/background"
     tools:context=".currentGame.GameController">
 
 
     <TextView
         android:id="@+id/word_label"
         android:layout_width="237dp"
-        android:layout_height="141dp"
+        android:layout_height="0dp"
         android:layout_marginTop="147dp"
+        android:layout_marginBottom="27dp"
         android:gravity="center_horizontal|center_vertical"
-        android:text="TextView"
-        android:textSize="40dp"
+        android:text="Palavra de Jogo"
         android:textColor="#E9296D"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/jump_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/back_button_game"
-        android:layout_width="162dp"
-        android:layout_height="171dp"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginRight="236dp"
         android:adjustViewBounds="true"
-        android:background="@android:color/transparent"
-        android:drawableTop="@drawable/buttonBack"
+        android:background="@drawable/button_back"
         android:gravity="left|top"
         android:onClick="backMenu"
-        android:scaleX="0.3"
-        android:scaleY="0.3"
-        android:text=""/>
+        android:text=""
+        app:layout_constraintEnd_toStartOf="@+id/crow_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:drawableTop="@drawable/buttonJump"
-        android:scaleX="0.4"
-        android:scaleY="0.4"
-        android:text="Passar"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="266dp" />
+        android:id="@+id/jump_button"
+        android:layout_width="70dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginRight="87dp"
+        android:layout_marginBottom="121dp"
+        android:background="@drawable/button_jump"
+        android:onClick="pass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/hit_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/word_label" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:drawableTop="@drawable/buttonCheck"
-        android:scaleX="0.4"
-        android:scaleY="0.4"
-        android:text="Acertar"
-        tools:layout_editor_absoluteX="201dp"
-        tools:layout_editor_absoluteY="266dp" />
+        android:id="@+id/hit_button"
+        android:layout_width="67dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:layout_marginBottom="121dp"
+        android:background="@drawable/button_check"
+        android:onClick="hit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/jump_button"
+        app:layout_constraintTop_toBottomOf="@+id/timer_label" />
+
+    <TextView
+        android:id="@+id/timer_label"
+        android:layout_width="77dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="205dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="2:00"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/hit_button"
+        app:layout_constraintEnd_toEndOf="@+id/crow_image"
+        app:layout_constraintTop_toBottomOf="@+id/crow_image" />
+
+    <ImageView
+        android:id="@+id/crow_image"
+        android:layout_width="78dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/timer_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/back_button_game"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coroa_amarela" />
 
 
 </android.support.constraint.ConstraintLayout>
