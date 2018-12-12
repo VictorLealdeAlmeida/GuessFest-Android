@@ -4,18 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000428"
     tools:context=".currentGame.GameController">
 
 
     <TextView
-        android:id="@+id/score_label"
-        android:layout_width="164dp"
-        android:layout_height="45dp"
+        android:id="@+id/word_label"
+        android:layout_width="237dp"
+        android:layout_height="141dp"
         android:layout_marginTop="147dp"
+        android:gravity="center_horizontal|center_vertical"
         android:text="TextView"
+        android:textSize="40dp"
+        android:textColor="#E9296D"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/back_button_game"
+        android:layout_width="162dp"
+        android:layout_height="171dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/buttonBack"
+        android:gravity="left|top"
+        android:onClick="backMenu"
+        android:scaleX="0.3"
+        android:scaleY="0.3"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/buttonJump"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:text="Passar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/buttonCheck"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:text="Acertar"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="266dp" />
 
 
 </android.support.constraint.ConstraintLayout>

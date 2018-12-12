@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import com.example.victorleal.guessfest.R
-import android.content.Intent
+import android.view.View
 
 
 class GameController : AppCompatActivity() {
@@ -16,6 +16,11 @@ class GameController : AppCompatActivity() {
 
         setContentView(R.layout.current_game)
 
+    }
+
+
+    fun backMenu(view: View) {
+        super.onBackPressed();
     }
 
 }
