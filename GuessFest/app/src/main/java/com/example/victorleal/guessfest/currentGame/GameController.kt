@@ -7,11 +7,16 @@ import com.example.victorleal.guessfest.R
 import android.view.View
 import kotlinx.android.synthetic.main.current_game.*
 import java.util.Random
+import android.os.CountDownTimer
+import java.util.concurrent.TimeUnit
 
 class GameController : AppCompatActivity() {
 
 
     var words: MutableList<String> = mutableListOf("Palavra 1", "Palavra 2", "Palavra 3", "Palavra 4", "Palavra 5", "Palavra 6", "Palavra 7", "Palavra 8")
+    var teamTurn = "teamBlue"
+    var bluePoints = 0
+    var pinkPoints = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,9 +25,15 @@ class GameController : AppCompatActivity() {
 
         setContentView(R.layout.current_game)
 
+        startGame()
+
+    }
+
+    fun startGame(){
         //Setar primeira palavra
         word_label.text = sortWord()
 
+        startTimer()
     }
 
 
@@ -33,6 +44,28 @@ class GameController : AppCompatActivity() {
     fun hit(view: View) {
 
         word_label.text = sortWord()
+
+        changeTeam()
+    }
+
+    fun changeTeam(){
+        if (teamTurn == "teamBlue"){
+            teamTurn = "teamPink"
+            team_label.text = "TIME ROSA"
+            team_bar.setImageResource(R.drawable.pink_team);
+        }else if (teamTurn == "teamPink"){
+            teamTurn = "teamBlue"
+            team_label.text = "TIME AZUL"
+            team_bar.setImageResource(R.drawable.blue_team);
+        }
+
+        if (bluePoints > pinkPoints){
+            crow_image.setImageResource(R.drawable.coroa_azul);
+        }else if (bluePoints < pinkPoints){
+            crow_image.setImageResource(R.drawable.coroa_rosa);
+        }else{
+            crow_image.setImageResource(R.drawable.coroa_amarela);
+        }
     }
 
     fun pass(view: View) {
@@ -54,6 +87,58 @@ class GameController : AppCompatActivity() {
         words.removeAt(value)
 
         return word
+    }
+
+    var timer: Timer?=null
+
+    //Call this method to start timer on activity start
+    private fun startTimer(){
+        timer = Timer(20000);
+        timer?.start()
+    }
+
+    //Call this method to update the timer
+    private fun updateTimer(){
+        if(timer!=null) {
+            val miliis = timer?.millisUntilFinished!!.toLong() + TimeUnit.SECONDS.toMillis(5)
+            //Here you need to maintain single instance for previous
+            timer?.cancel()
+            timer = Timer(miliis);
+            timer?.start()
+        }else{
+            startTimer()
+        }
+    }
+
+    inner class Timer(miliis:Long) : CountDownTimer(miliis,1000){
+        var millisUntilFinished:Long = 0
+        override fun onFinish() {
+            timer_label.text = "0:00"
+            Log.i("PointsBlue", bluePoints.toString())
+            Log.i("PointsPink", pinkPoints.toString())
+        }
+
+        override fun onTick(millisUntilFinished: Long) {
+            this.millisUntilFinished = millisUntilFinished
+            assignPoints()
+            timer_label.text = formatMinut((millisUntilFinished/1000).toInt())
+        }
+    }
+
+    fun formatMinut(time: Int) : String{
+        val minutes = time / 60
+        val seconds = time % 60
+        return String.format("%d:%02d", minutes, seconds)
+    }
+
+    fun assignPoints(){
+        Log.i("PointsBlue", bluePoints.toString())
+        Log.i("PointsPink", pinkPoints.toString())
+        if (teamTurn == "teamBlue"){
+            bluePoints++
+        }else if (teamTurn == "teamPink"){
+            pinkPoints++
+        }
     }
 
 }

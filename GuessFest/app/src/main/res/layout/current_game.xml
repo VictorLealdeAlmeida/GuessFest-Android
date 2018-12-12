@@ -22,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+<!--
     <Button
         android:id="@+id/back_button_game"
         android:layout_width="0dp"
@@ -40,7 +40,7 @@
         app:layout_constraintEnd_toStartOf="@+id/crow_image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+-->
     <Button
         android:id="@+id/jump_button"
         android:layout_width="70dp"
@@ -98,6 +98,26 @@
         app:layout_constraintStart_toEndOf="@+id/back_button_game"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/coroa_amarela" />
+
+    <ImageView
+        android:id="@+id/team_bar"
+        android:layout_width="175dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/yellow_bar"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <TextView
+        android:id="@+id/team_label"
+        android:layout_width="139dp"
+        android:layout_height="29dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="TextView"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="129dp" />
+
 
 
 </android.support.constraint.ConstraintLayout>
