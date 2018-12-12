@@ -20,12 +20,14 @@ class GameController : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        Log.i("Thema Escolhido", getIntent().getStringExtra("THEME_NAME"))
-
         setContentView(R.layout.current_game)
 
+        Log.i("Thema Escolhido", getIntent().getStringExtra("THEME_NAME2"))
+
+
         startGame()
+
+        teamTurn = getIntent().getStringExtra("TEAM_START")
 
     }
 
@@ -34,6 +36,7 @@ class GameController : AppCompatActivity() {
         word_label.text = sortWord()
 
         startTimer()
+        changeTeam()
     }
 
 
@@ -57,14 +60,6 @@ class GameController : AppCompatActivity() {
             teamTurn = "teamBlue"
             team_label.text = "TIME AZUL"
             team_bar.setImageResource(R.drawable.blue_team);
-        }
-
-        if (bluePoints > pinkPoints){
-            crow_image.setImageResource(R.drawable.coroa_azul);
-        }else if (bluePoints < pinkPoints){
-            crow_image.setImageResource(R.drawable.coroa_rosa);
-        }else{
-            crow_image.setImageResource(R.drawable.coroa_amarela);
         }
     }
 
@@ -93,7 +88,7 @@ class GameController : AppCompatActivity() {
 
     //Call this method to start timer on activity start
     private fun startTimer(){
-        timer = Timer(20000);
+        timer = Timer(120000);
         timer?.start()
     }
 
@@ -122,6 +117,17 @@ class GameController : AppCompatActivity() {
             this.millisUntilFinished = millisUntilFinished
             assignPoints()
             timer_label.text = formatMinut((millisUntilFinished/1000).toInt())
+            crowColor()
+        }
+    }
+
+    fun crowColor(){
+        if (bluePoints < pinkPoints){
+            crow_image.setImageResource(R.drawable.coroa_azul);
+        }else if (bluePoints > pinkPoints){
+            crow_image.setImageResource(R.drawable.coroa_rosa);
+        }else{
+            crow_image.setImageResource(R.drawable.coroa_amarela);
         }
     }
 

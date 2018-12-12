@@ -21,6 +21,10 @@
             android:name="com.example.victorleal.guessfest.currentGame.GameController"
             >
         </activity>
+        <activity
+            android:name="com.example.victorleal.guessfest.currentGame.PreGameActivity"
+            >
+        </activity>
     </application>
 
     <!-- Required for location services -->

@@ -47,7 +47,7 @@ class AdapterCardTheme (private val themes: List<ThemeItem>, private val context
 
         holder.image.setOnClickListener {
             Log.i("Clicou",them.title)
-            val intent = Intent(context, com.example.victorleal.guessfest.currentGame.GameController :: class.java)
+            val intent = Intent(context, com.example.victorleal.guessfest.currentGame.PreGameActivity :: class.java)
 
             Log.i("Contexx",intent.toString())
 
