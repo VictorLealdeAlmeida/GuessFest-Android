@@ -80,8 +80,8 @@
       <file leaf-file-name="PreGameActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/currentGame/PreGameActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="20" selection-start-line="20" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="256">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="48" />
               <folding>
                 <element signature="e#54#247#0" expanded="true" />
               </folding>
@@ -101,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameController.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameController.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/currentGame/GameController.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="158" column="60" selection-start-line="158" selection-start-column="60" selection-end-line="158" selection-end-column="60" />
+            <state relative-caret-position="369">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#54#394#0" expanded="true" />
               </folding>
@@ -113,7 +113,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game_over.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="game_over.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/game_over.xml">
           <provider selected="true" editor-type-id="android-designer2">
             <state />
@@ -128,17 +128,17 @@
       <file leaf-file-name="GameOverActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/currentGame/GameOverActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+            <state relative-caret-position="279">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
-                <element signature="e#54#218#0" expanded="true" />
+                <element signature="e#54#248#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <file leaf-file-name="card_theme.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_theme.xml">
           <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
@@ -2509,11 +2509,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/current_game.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/listTheme/AdapterCardTheme.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/pre_game.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/currentGame/PreGameActivity.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/game_over.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/currentGame/GameOverActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/currentGame/PreGameActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/currentGame/GameController.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/currentGame/GameOverActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/game_over.xml" />
       </list>
     </option>
   </component>
@@ -2557,6 +2557,24 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="guessfest" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="currentGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GuessFest" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="guessfest" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="listTheme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GuessFest" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="GuessFest" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
@@ -2917,16 +2935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/currentGame/PreGameActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="20" selection-start-line="20" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#54#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -2937,12 +2945,40 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/currentGame/PreGameActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="e#54#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_theme.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/currentGame/GameController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#54#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/currentGame/GameOverActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+        <state relative-caret-position="279">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
-            <element signature="e#54#218#0" expanded="true" />
+            <element signature="e#54#248#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2954,16 +2990,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/victorleal/guessfest/currentGame/GameController.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="158" column="60" selection-start-line="158" selection-start-column="60" selection-end-line="158" selection-end-column="60" />
-          <folding>
-            <element signature="e#54#394#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

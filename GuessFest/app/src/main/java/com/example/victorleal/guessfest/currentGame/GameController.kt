@@ -41,9 +41,7 @@ class GameController : AppCompatActivity() {
     }
 
 
-    fun backMenu(view: View) {
-        super.onBackPressed();
-    }
+
 
     fun hit(view: View) {
 
