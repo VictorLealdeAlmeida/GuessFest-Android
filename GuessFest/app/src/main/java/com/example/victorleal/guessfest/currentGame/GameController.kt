@@ -10,6 +10,9 @@ import kotlinx.android.synthetic.main.current_game.*
 import java.util.Random
 import android.os.CountDownTimer
 import java.util.concurrent.TimeUnit
+import android.view.animation.AlphaAnimation
+
+
 
 class GameController : AppCompatActivity() {
 
@@ -18,6 +21,7 @@ class GameController : AppCompatActivity() {
     var teamTurn = "teamBlue"
     var bluePoints = 0
     var pinkPoints = 0
+    var gameStart = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,18 +30,40 @@ class GameController : AppCompatActivity() {
         Log.i("Thema Escolhido", getIntent().getStringExtra("THEME_NAME2"))
 
 
-        startGame()
 
         teamTurn = getIntent().getStringExtra("TEAM_START")
+
+        startTimer(4000)
 
     }
 
     fun startGame(){
+        gameStart = true
+        startTimer(20000)
+        changeTeam()
+
         //Setar primeira palavra
         word_label.text = sortWord()
 
-        startTimer()
-        changeTeam()
+
+        setAnimation()
+    }
+
+    fun setAnimation(){
+        val animation1 = AlphaAnimation(0.0f, 1.0f)
+        animation1.duration = 1000
+       // animation1.startOffset = 5000
+        animation1.fillAfter = true
+
+        word_label.startAnimation(animation1)
+        hit_button.startAnimation(animation1)
+        jump_button.startAnimation(animation1)
+        timer_label.startAnimation(animation1)
+        crow_image.startAnimation(animation1)
+        team_bar.startAnimation(animation1)
+        team_label.startAnimation(animation1)
+
+
     }
 
 
@@ -86,13 +112,13 @@ class GameController : AppCompatActivity() {
     var timer: Timer?=null
 
     //Call this method to start timer on activity start
-    private fun startTimer(){
-        timer = Timer(20000);
+    private fun startTimer(time: Long){
+        timer = Timer(time);
         timer?.start()
     }
 
     //Call this method to update the timer
-    private fun updateTimer(){
+  /*  private fun updateTimer(){
         if(timer!=null) {
             val miliis = timer?.millisUntilFinished!!.toLong() + TimeUnit.SECONDS.toMillis(5)
             //Here you need to maintain single instance for previous
@@ -102,25 +128,39 @@ class GameController : AppCompatActivity() {
         }else{
             startTimer()
         }
-    }
+    }*/
 
     inner class Timer(miliis:Long) : CountDownTimer(miliis,1000){
         var millisUntilFinished:Long = 0
         override fun onFinish() {
-            timer_label.text = "0:00"
-            Log.i("PointsBlue", bluePoints.toString())
-            Log.i("PointsPink", pinkPoints.toString())
 
-            toGameOver()
+            if (gameStart) {
+
+                timer_label.text = "0:00"
+                Log.i("PointsBlue", bluePoints.toString())
+                Log.i("PointsPink", pinkPoints.toString())
+
+                toGameOver()
+
+            }else{
+               // word_label.alpha = 0.0f
+                startGame()
+            }
         }
 
         override fun onTick(millisUntilFinished: Long) {
             this.millisUntilFinished = millisUntilFinished
-            assignPoints()
-            timer_label.text = formatMinut((millisUntilFinished/1000).toInt())
-            crowColor()
+
+            if (gameStart) {
+                assignPoints()
+                timer_label.text = formatMinut((millisUntilFinished / 1000).toInt())
+                crowColor()
+            }else{
+                word_label.text = (millisUntilFinished / 1000).toString()
+            }
         }
     }
+
 
     fun crowColor(){
         if (bluePoints < pinkPoints){
@@ -139,8 +179,8 @@ class GameController : AppCompatActivity() {
     }
 
     fun assignPoints(){
-        Log.i("PointsBlue", bluePoints.toString())
-        Log.i("PointsPink", pinkPoints.toString())
+       // Log.i("PointsBlue", bluePoints.toString())
+       // Log.i("PointsPink", pinkPoints.toString())
         if (teamTurn == "teamBlue"){
             bluePoints++
         }else if (teamTurn == "teamPink"){
