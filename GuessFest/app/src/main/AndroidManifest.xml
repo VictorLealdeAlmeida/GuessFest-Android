@@ -25,6 +25,10 @@
             android:name="com.example.victorleal.guessfest.currentGame.PreGameActivity"
             >
         </activity>
+        <activity
+            android:name="com.example.victorleal.guessfest.currentGame.GameOverActivity"
+            >
+        </activity>
     </application>
 
     <!-- Required for location services -->

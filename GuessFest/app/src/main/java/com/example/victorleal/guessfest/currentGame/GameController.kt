@@ -1,5 +1,6 @@
 package com.example.victorleal.guessfest.currentGame
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
@@ -88,7 +89,7 @@ class GameController : AppCompatActivity() {
 
     //Call this method to start timer on activity start
     private fun startTimer(){
-        timer = Timer(120000);
+        timer = Timer(20000);
         timer?.start()
     }
 
@@ -111,6 +112,8 @@ class GameController : AppCompatActivity() {
             timer_label.text = "0:00"
             Log.i("PointsBlue", bluePoints.toString())
             Log.i("PointsPink", pinkPoints.toString())
+
+            toGameOver()
         }
 
         override fun onTick(millisUntilFinished: Long) {
@@ -145,6 +148,18 @@ class GameController : AppCompatActivity() {
         }else if (teamTurn == "teamPink"){
             pinkPoints++
         }
+    }
+
+    fun toGameOver(){
+        val intent = Intent(this, GameOverActivity :: class.java)
+
+
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.putExtra("BLUE_POINTS", bluePoints.toString());
+        intent.putExtra("PINK_POINTS", pinkPoints.toString());
+
+
+        this.startActivity(intent)
     }
 
 }
