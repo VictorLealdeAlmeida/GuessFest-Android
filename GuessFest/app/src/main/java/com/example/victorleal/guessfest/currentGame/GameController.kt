@@ -35,6 +35,13 @@ class GameController : AppCompatActivity() {
 
         startTimer(4000)
 
+        hit_button.alpha = 0.0f
+        jump_button.alpha = 0.0f
+        timer_label.alpha = 0.0f
+        crow_image.alpha = 0.0f
+        team_bar.alpha = 0.0f
+        team_label.alpha = 0.0f
+
     }
 
     fun startGame(){
@@ -54,6 +61,14 @@ class GameController : AppCompatActivity() {
         animation1.duration = 1000
        // animation1.startOffset = 5000
         animation1.fillAfter = true
+
+        hit_button.alpha = 1.0f
+        jump_button.alpha = 1.0f
+        timer_label.alpha = 1.0f
+        crow_image.alpha = 1.0f
+        team_bar.alpha = 1.0f
+        team_label.alpha = 1.0f
+
 
         word_label.startAnimation(animation1)
         hit_button.startAnimation(animation1)
