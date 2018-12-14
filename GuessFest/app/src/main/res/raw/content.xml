@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<temas>
+    <tema nome="musica">
+        <palavra>vinicius</palavra>
+        <palavra>tulio</palavra>
+        <palavra>leal</palavra>
+        <palavra>vernilli</palavra>
+        <palavra>barack</palavra>
+    </tema>
+    <tema nome="teatro">
+        <palavra>opa</palavra>
+        <palavra>sim</palavra>
+        <palavra>certo</palavra>
+        <palavra>vernilli</palavra>
+        <palavra>barack</palavra>
+    </tema>
+</temas>

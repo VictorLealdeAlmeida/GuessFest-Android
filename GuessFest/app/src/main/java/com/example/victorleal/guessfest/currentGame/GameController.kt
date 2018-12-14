@@ -9,15 +9,20 @@ import android.view.View
 import kotlinx.android.synthetic.main.current_game.*
 import java.util.Random
 import android.os.CountDownTimer
+import android.util.Xml
 import java.util.concurrent.TimeUnit
 import android.view.animation.AlphaAnimation
-
+import java.io.File
+import java.io.InputStream
+import com.example.victorleal.guessfest.utils.*
+import org.xmlpull.v1.XmlPullParser
+import org.xmlpull.v1.XmlPullParserException
+import java.io.IOException
 
 
 class GameController : AppCompatActivity() {
 
-
-    var words: MutableList<String> = mutableListOf("Palavra 1", "Palavra 2", "Palavra 3", "Palavra 4", "Palavra 5", "Palavra 6", "Palavra 7", "Palavra 8")
+    var words: MutableList<String> = mutableListOf()
     var teamTurn = "teamBlue"
     var bluePoints = 0
     var pinkPoints = 0
@@ -29,6 +34,11 @@ class GameController : AppCompatActivity() {
 
         Log.i("Thema Escolhido", getIntent().getStringExtra("THEME_NAME2"))
 
+        val inputStream: InputStream = getResources().openRawResource(R.raw.content)
+        this.parsePalavras(inputStream)
+
+        val inputStream2: InputStream = getResources().openRawResource(R.raw.scores)
+        this.parseScore(inputStream2)
 
 
         teamTurn = getIntent().getStringExtra("TEAM_START")
@@ -42,6 +52,128 @@ class GameController : AppCompatActivity() {
         team_bar.alpha = 0.0f
         team_label.alpha = 0.0f
 
+    }
+
+    fun parseScore(inputStream: InputStream): List<*> {
+        inputStream.use { inputStream ->
+            val parser: XmlPullParser = Xml.newPullParser()
+            parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false)
+            parser.setInput(inputStream, null)
+            parser.nextTag()
+
+            while (parser.next() != XmlPullParser.END_TAG) {
+                if (parser.eventType != XmlPullParser.START_TAG) {
+                    continue
+                }
+                // Starts by looking for the entry tag
+                if (parser.name == "score") {
+                    readScore(parser)
+                } else {
+                    skip(parser)
+                }
+            }
+            return mutableListOf(String)
+        }
+    }
+
+    fun parsePalavras(inputStream: InputStream): List<*> {
+        inputStream.use { inputStream ->
+            val parser: XmlPullParser = Xml.newPullParser()
+            parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false)
+            parser.setInput(inputStream, null)
+            parser.nextTag()
+
+            while (parser.next() != XmlPullParser.END_TAG) {
+                if (parser.eventType != XmlPullParser.START_TAG) {
+                    continue
+                }
+                // Starts by looking for the entry tag
+                if (parser.name == "tema") {
+                    val nomeTema = parser.getAttributeValue(null, "nome")
+
+                    if (nomeTema.equals("teatro")) {
+                        readTema(parser)
+                    } else {
+                        skip(parser)
+                    }
+                }
+            }
+            return mutableListOf(String)
+        }
+    }
+
+    @Throws(XmlPullParserException::class, IOException::class)
+    private fun skip(parser: XmlPullParser) {
+        if (parser.eventType != XmlPullParser.START_TAG) {
+            throw IllegalStateException()
+        }
+        var depth = 1
+        while (depth != 0) {
+            when (parser.next()) {
+                XmlPullParser.END_TAG -> depth--
+                XmlPullParser.START_TAG -> depth++
+            }
+        }
+    }
+
+    fun readTema(parser: XmlPullParser) {
+        parser.require(XmlPullParser.START_TAG, null, "tema")
+        var palavra: String = ""
+        while (parser.next() != XmlPullParser.END_TAG) {
+            if (parser.eventType != XmlPullParser.START_TAG) {
+                continue
+            }
+            when (parser.name) {
+                "palavra" -> palavra= readPalavra(parser)
+                else -> skip(parser)
+            }
+            words.add(palavra)
+        }
+    }
+
+    fun readScore(parser: XmlPullParser) {
+        parser.require(XmlPullParser.START_TAG, null, "score")
+        var pink: String = ""
+        var blue: String = ""
+        while (parser.next() != XmlPullParser.END_TAG) {
+            if (parser.eventType != XmlPullParser.START_TAG) {
+                continue
+            }
+            when (parser.name) {
+                "pink" -> pink = readTop(parser, "pink")
+                "blue" -> blue = readTop(parser, "blue")
+                else -> skip(parser)
+            }
+            Log.i("pink: ", pink)
+            Log.i("blue:", blue)    
+        }
+    }
+
+    @Throws(IOException::class, XmlPullParserException::class)
+    private fun readTop(parser: XmlPullParser, team: String): String {
+        parser.require(XmlPullParser.START_TAG, "", team)
+        val title = readText(parser)
+        parser.require(XmlPullParser.END_TAG, "", team)
+        return title
+    }
+
+    @Throws(IOException::class, XmlPullParserException::class)
+    private fun readPalavra(parser: XmlPullParser): String {
+        parser.require(XmlPullParser.START_TAG, "", "palavra")
+        val title = readText(parser)
+        parser.require(XmlPullParser.END_TAG, "", "palavra")
+        return title
+    }
+
+    // For the tags title and summary, extracts their text values.
+    @Throws(IOException::class, XmlPullParserException::class)
+    private fun readText(parser: XmlPullParser): String {
+        var result = ""
+        if (parser.next() == XmlPullParser.TEXT) {
+            result = parser.text
+            parser.nextTag()
+        }
+        return result
     }
 
     fun startGame(){
