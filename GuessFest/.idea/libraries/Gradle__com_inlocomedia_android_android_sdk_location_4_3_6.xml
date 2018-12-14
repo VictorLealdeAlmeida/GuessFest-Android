@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.inlocomedia.android:android-sdk-location-4.3.6">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-sdk-location-4.3.6.aar/812c88ac74c06f0c68cd327a5616e405/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-sdk-location-4.3.6.aar/6ea5b6714c4903090d699b005d599b64/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-sdk-location-4.3.6.aar/812c88ac74c06f0c68cd327a5616e405/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-sdk-location-4.3.6.aar/812c88ac74c06f0c68cd327a5616e405/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-sdk-location-4.3.6.aar/6ea5b6714c4903090d699b005d599b64/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-sdk-location-4.3.6.aar/6ea5b6714c4903090d699b005d599b64/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

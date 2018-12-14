@@ -40,8 +40,8 @@ class AdapterCardTheme (private val themes: List<ThemeItem>, private val context
 
     override fun onBindViewHolder(holder: ViewHolderProduct, position: Int) {
         val them = themes[position]
-        holder.categories.text = them.title
-        holder.name.text = them.value
+        holder.categories.text = them.value
+        holder.name.text = them.title
         holder.image.setImageResource(them.image)
 
 

@@ -37,10 +37,12 @@ class GameController : AppCompatActivity() {
         val inputStream: InputStream = getResources().openRawResource(R.raw.content)
         this.parsePalavras(inputStream)
 
-        val inputStream2: InputStream = getResources().openRawResource(R.raw.scores)
+       /* val inputStream2: InputStream = getResources().openRawResource(R.raw.scores)
         this.parseScore(inputStream2)
+        */
 
 
+        //Logico do start
         teamTurn = getIntent().getStringExtra("TEAM_START")
 
         startTimer(4000)
@@ -54,7 +56,7 @@ class GameController : AppCompatActivity() {
 
     }
 
-    fun parseScore(inputStream: InputStream): List<*> {
+   /* fun parseScore(inputStream: InputStream): List<*> {
         inputStream.use { inputStream ->
             val parser: XmlPullParser = Xml.newPullParser()
             parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false)
@@ -74,7 +76,7 @@ class GameController : AppCompatActivity() {
             }
             return mutableListOf(String)
         }
-    }
+    }*/
 
     fun parsePalavras(inputStream: InputStream): List<*> {
         inputStream.use { inputStream ->
@@ -91,7 +93,7 @@ class GameController : AppCompatActivity() {
                 if (parser.name == "tema") {
                     val nomeTema = parser.getAttributeValue(null, "nome")
 
-                    if (nomeTema.equals("teatro")) {
+                    if (nomeTema.equals(getIntent().getStringExtra("THEME_NAME2"))) {
                         readTema(parser)
                     } else {
                         skip(parser)
@@ -131,7 +133,7 @@ class GameController : AppCompatActivity() {
         }
     }
 
-    fun readScore(parser: XmlPullParser) {
+  /*  fun readScore(parser: XmlPullParser) {
         parser.require(XmlPullParser.START_TAG, null, "score")
         var pink: String = ""
         var blue: String = ""
@@ -147,7 +149,7 @@ class GameController : AppCompatActivity() {
             Log.i("pink: ", pink)
             Log.i("blue:", blue)    
         }
-    }
+    }*/
 
     @Throws(IOException::class, XmlPullParserException::class)
     private fun readTop(parser: XmlPullParser, team: String): String {

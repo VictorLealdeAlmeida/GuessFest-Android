@@ -1,17 +1,1919 @@
 <?xml version="1.0" encoding="utf-8"?>
 <temas>
-    <tema nome="musica">
-        <palavra>vinicius</palavra>
-        <palavra>tulio</palavra>
-        <palavra>leal</palavra>
-        <palavra>vernilli</palavra>
-        <palavra>barack</palavra>
+    <tema nome="Comida">
+        <palavra>Feijão</palavra>
+        <palavra>Arroz</palavra>
+        <palavra>Picanha</palavra>
+        <palavra>Ketchup</palavra>
+        <palavra>Cajá</palavra>
+        <palavra>Hamburger</palavra>
+        <palavra>Cachorro Quente</palavra>
+        <palavra>Churrasco</palavra>
+        <palavra>Salsicha</palavra>
+        <palavra>Banana</palavra>
+        <palavra>Maçã</palavra>
+        <palavra>Uva</palavra>
+        <palavra>Lombo</palavra>
+        <palavra>Jaca</palavra>
+        <palavra>Manga</palavra>
+        <palavra>Pão</palavra>
+        <palavra>Queijo</palavra>
+        <palavra>Presunto</palavra>
+        <palavra>Manteiga</palavra>
+        <palavra>Sushi</palavra>
+        <palavra>Peixe</palavra>
+        <palavra>Polvo</palavra>
+        <palavra>Siri</palavra>
+        <palavra>Bolo</palavra>
+        <palavra>Chocolate</palavra>
+        <palavra>Chocolate Branco</palavra>
+        <palavra>Leite</palavra>
+        <palavra>Leite Condensado</palavra>
+        <palavra>Torta</palavra>
+        <palavra>Torta Alemã</palavra>
+        <palavra>Torta de Limão</palavra>
+        <palavra>Maionese</palavra>
+        <palavra>Mustarda</palavra>
+        <palavra>Fava</palavra>
+        <palavra>Grão de bico</palavra>
+        <palavra>Cupim</palavra>
+        <palavra>Costela</palavra>
+        <palavra>Farofa</palavra>
+        <palavra>Cereal</palavra>
+        <palavra>Empada</palavra>
+        <palavra>Ervilha</palavra>
+        <palavra>Mel</palavra>
+        <palavra>Queijo Coalho</palavra>
+        <palavra>Açaí</palavra>
+        <palavra>Abacate</palavra>
+        <palavra>Acerola</palavra>
+        <palavra>Cebola</palavra>
+        <palavra>Tomate</palavra>
+        <palavra>Chuchu</palavra>
+        <palavra>Amêndoa</palavra>
+        <palavra>Abóbora</palavra>
+        <palavra>Alface</palavra>
+        <palavra>Rúcula</palavra>
+        <palavra>Ameixa</palavra>
+        <palavra>Açúcar</palavra>
+        <palavra>Acelga</palavra>
+        <palavra>Alfajor</palavra>
+        <palavra>Almôndega</palavra>
+        <palavra>Aspargo</palavra>
+        <palavra>Batata</palavra>
+        <palavra>Berinjela</palavra>
+        <palavra>Brioche</palavra>
+        <palavra>Bombom</palavra>
+        <palavra>Brócolis</palavra>
+        <palavra>Bem-casado</palavra>
+        <palavra>Baunilha</palavra>
+        <palavra>Sorvete</palavra>
+        <palavra>Brigadeiro</palavra>
+        <palavra>Beijinho</palavra>
+        <palavra>Damasco</palavra>
+        <palavra>Doritos</palavra>
+        <palavra>Dobradinha</palavra>
+        <palavra>Rosquinha</palavra>
+        <palavra>Geléia</palavra>
+        <palavra>Azeite</palavra>
+        <palavra>Espetinho</palavra>
+        <palavra>Espaguete</palavra>
+        <palavra>Espinafre</palavra>
+        <palavra>Estrogonofe</palavra>
+        <palavra>Feijoada</palavra>
+        <palavra>Filé</palavra>
+        <palavra>Figo</palavra>
+        <palavra>Farinha</palavra>
+        <palavra>Pudim</palavra>
+        <palavra>Purê de Batatas</palavra>
+        <palavra>Café</palavra>
+        <palavra>Refrigerante</palavra>
+        <palavra>Vodca</palavra>
+        <palavra>Uísque</palavra>
+        <palavra>Groselha</palavra>
+        <palavra>Goiaba</palavra>
+        <palavra>Galinha</palavra>
+        <palavra>Frango</palavra>
+        <palavra>Goiabada</palavra>
+        <palavra>Gorgonzola</palavra>
+        <palavra>Guizado</palavra>
+        <palavra>Halls</palavra>
+        <palavra>Humus</palavra>
+        <palavra>Iogurte</palavra>
+        <palavra>Jabuticaba</palavra>
+        <palavra>Jambo</palavra>
+        <palavra>Jalapeño</palavra>
+        <palavra>Porco</palavra>
+        <palavra>Laranja</palavra>
+        <palavra>Limão</palavra>
+        <palavra>Maracujá</palavra>
+        <palavra>Lasanha</palavra>
+        <palavra>Linguiça</palavra>
+        <palavra>Lula</palavra>
+        <palavra>Lichia</palavra>
+        <palavra>Lagosta</palavra>
+        <palavra>Linguine</palavra>
+        <palavra>Sonho</palavra>
+        <palavra>Pão Doce</palavra>
+        <palavra>Licor</palavra>
+        <palavra>Melância</palavra>
+        <palavra>Malagueta</palavra>
+        <palavra>Milho</palavra>
+        <palavra>Macarrão</palavra>
+        <palavra>Mussarela</palavra>
+        <palavra>Melaço</palavra>
+        <palavra>Mousse</palavra>
+        <palavra>Pisco</palavra>
+        <palavra>Nutella</palavra>
+        <palavra>Noz</palavra>
+        <palavra>Nhoque</palavra>
+        <palavra>Nachos</palavra>
+        <palavra>Nega Maluca</palavra>
+        <palavra>Ovo</palavra>
+        <palavra>Omelete</palavra>
+        <palavra>Oiti</palavra>
+        <palavra>Ostra</palavra>
+        <palavra>Ovomaltine</palavra>
+        <palavra>Milkshake</palavra>
+        <palavra>Orégano</palavra>
+        <palavra>Pizza</palavra>
+        <palavra>Calabresa</palavra>
+        <palavra>Catupiry</palavra>
+        <palavra>Pinha</palavra>
+        <palavra>Pitanga</palavra>
+        <palavra>Pera</palavra>
+        <palavra>Pêssego</palavra>
+        <palavra>Penne</palavra>
+        <palavra>Panetone</palavra>
+        <palavra>Pimenta</palavra>
+        <palavra>Pistache</palavra>
+        <palavra>Picles</palavra>
+        <palavra>Paçoca</palavra>
+        <palavra>Pepino</palavra>
+        <palavra>Pimentão</palavra>
+        <palavra>Pavê</palavra>
+        <palavra>Quinoa</palavra>
+        <palavra>Queijadinha</palavra>
+        <palavra>Quindim</palavra>
+        <palavra>Rabanete</palavra>
+        <palavra>Romã</palavra>
+        <palavra>Ratatouille</palavra>
+        <palavra>Ricota</palavra>
+        <palavra>Rocambole</palavra>
+        <palavra>Rabanada</palavra>
+        <palavra>Molho Rosé</palavra>
+        <palavra>Barbecue</palavra>
+        <palavra>Saputi</palavra>
+        <palavra>Suspiro</palavra>
+        <palavra>Sundae</palavra>
+        <palavra>Sopa</palavra>
+        <palavra>Seriguela</palavra>
+        <palavra>Saquê</palavra>
+        <palavra>Shoyu</palavra>
+        <palavra>Salpicão</palavra>
+        <palavra>Tapioca</palavra>
+        <palavra>Tangerina</palavra>
+        <palavra>Tamarindo</palavra>
+        <palavra>Bacon</palavra>
+        <palavra>Torrada</palavra>
+        <palavra>Vinho</palavra>
+        <palavra>Vitela</palavra>
+        <palavra>Vieira</palavra>
+        <palavra>Caldinho</palavra>
+        <palavra>Chourizo</palavra>
+        <palavra>Cuscuz</palavra>
+        <palavra>Charque</palavra>
+        <palavra>Misto</palavra>
+        <palavra>Taco</palavra>
+        <palavra>Burrito</palavra>
+        <palavra>Sanduíche</palavra>
+        <palavra>Camarão</palavra>
+        <palavra>Marisco</palavra>
+        <palavra>Kani</palavra>
+        <palavra>Cebiche</palavra>
+        <palavra>Peito de Peru</palavra>
+        <palavra>Chester</palavra>
+        <palavra>Passas</palavra>
+        <palavra>Morango</palavra>
+        <palavra>Pastel</palavra>
+        <palavra>Salgadinho de Queijo</palavra>
+        <palavra>Cookies</palavra>
+        <palavra>Brownie</palavra>
+        <palavra>Bolinho de Chuva</palavra>
+        <palavra>Chá</palavra>
+        <palavra>Sal</palavra>
+        <palavra>Alho</palavra>
+        <palavra>Caju</palavra>
+        <palavra>Jiló</palavra>
+        <palavra>Angu</palavra>
+        <palavra>Kiwi</palavra>
+        <palavra>Bife</palavra>
+        <palavra>Óleo</palavra>
+        <palavra>Soja</palavra>
+        <palavra>Amora</palavra>
+        <palavra>Aveia</palavra>
+        <palavra>Bauru</palavra>
+        <palavra>Chopp</palavra>
+        <palavra>Crepe</palavra>
+        <palavra>Cravo</palavra>
+        <palavra>Menta</palavra>
+        <palavra>Pirão</palavra>
+        <palavra>Trufa</palavra>
+        <palavra>Cocada</palavra>
+        <palavra>Fondue</palavra>
+        <palavra>Jujuba</palavra>
+        <palavra>Pernil</palavra>
+        <palavra>Picolé</palavra>
+        <palavra>Salame</palavra>
+        <palavra>Temaki</palavra>
+        <palavra>Vatapá</palavra>
+        <palavra>Abacaxi</palavra>
+        <palavra>Alecrim</palavra>
+        <palavra>Bisteca</palavra>
+        <palavra>Churros</palavra>
+        <palavra>Cupcake</palavra>
+        <palavra>Granola</palavra>
+        <palavra>Graraná</palavra>
+        <palavra>Esfirra</palavra>
+        <palavra>Mostarda</palavra>
+        <palavra>Nuggets</palavra>
+        <palavra>Pamonha</palavra>
+        <palavra>Palmito</palavra>
+        <palavra>Torresmo</palavra>
+        <palavra>Waffles</palavra>
+        <palavra>Vinagre</palavra>
+        <palavra>Adoçante</palavra>
+        <palavra>Azeitona</palavra>
+        <palavra>Bacalhau</palavra>
+        <palavra>Canelona</palavra>
+        <palavra>Caramelo</palavra>
+        <palavra>Castanha</palavra>
+        <palavra>Chiclete</palavra>
+        <palavra>Cogumelo</palavra>
+        <palavra>Gelatina</palavra>
+        <palavra>Gengibre</palavra>
+        <palavra>Graviola</palavra>
+        <palavra>Panqueca</palavra>
+        <palavra>Parmesão</palavra>
+        <palavra>Pirulito</palavra>
+        <palavra>Yakisoba</palavra>
+        <palavra>Chantilly</palavra>
+        <palavra>Chimarrão</palavra>
+        <palavra>Leite em Pó</palavra>
+        <palavra>Framboesa</palavra>
+        <palavra>Margarina</palavra>
+        <palavra>Requeijão</palavra>
+        <palavra>Mortadela</palavra>
+        <palavra>Provolone</palavra>
+        <palavra>Sarapatel</palavra>
+        <palavra>Energético</palavra>
+        <palavra>Champignon</palavra>
+        <palavra>Maça do Amor</palavra>
+        <palavra>Strogonoff</palavra>
+        <palavra>Algodão Doce</palavra>
+        <palavra>Banana Split</palavra>
+        <palavra>Marshmallow</palavra>
+        <palavra>Molho Inglês</palavra>
+        <palavra>Olho de Sogra</palavra>
+        <palavra>Achocolatado</palavra>
+        <palavra>Creme de Leite</palavra>
+        <palavra>Bobó</palavra>
+        <palavra>Petit Gateu</palavra>
+        <palavra>Ovo de Codorna</palavra>
+        <palavra>Caldo de Cana</palavra>
+        <palavra>Rolinho Primavera</palavra>
+        <palavra>Salada de Frutas</palavra>
+        <palavra>Molho Barbecue</palavra>
+        <palavra>Pé de Moleque</palavra>
+        <palavra>Coração de Galinha</palavra>
+        <palavra>Suco</palavra>
+        <palavra>Barra de Cereais</palavra>
+        <palavra>Batata Frita</palavra>
+        <palavra>Vinagrete</palavra>
+        <palavra>Rapadura</palavra>
+        <palavra>Colorau</palavra>
+        <palavra>Baquete</palavra>
+        <palavra>Beirute</palavra>
+        <palavra>Acarajé</palavra>
+        <palavra>Suflê</palavra>
+        <palavra>Amendoim</palavra>
+        <palavra>Peru</palavra>
+        <palavra>Fricassê</palavra>
+        <palavra>Cereja</palavra>
     </tema>
-    <tema nome="teatro">
-        <palavra>opa</palavra>
-        <palavra>sim</palavra>
-        <palavra>certo</palavra>
-        <palavra>vernilli</palavra>
-        <palavra>barack</palavra>
+    <tema nome="Música">
+        <palavra>Raul Seixas</palavra>
+        <palavra>Alcione</palavra>
+        <palavra>Almir Sater</palavra>
+        <palavra>Amado Batista</palavra>
+        <palavra>Annita</palavra>
+        <palavra>Bezerra da silva</palavra>
+        <palavra>Capital inicial</palavra>
+        <palavra>Chico buarque</palavra>
+        <palavra>Chimarruts</palavra>
+        <palavra>Daniel</palavra>
+        <palavra>Daniela Mercury</palavra>
+        <palavra>Detonautas</palavra>
+        <palavra>Ed motta</palavra>
+        <palavra>Elba Ramalho</palavra>
+        <palavra>Fábio Junior</palavra>
+        <palavra>Fagner</palavra>
+        <palavra>Fernando e sorocaba</palavra>
+        <palavra>Fresno</palavra>
+        <palavra>Gal costa</palavra>
+        <palavra>Gilberto gil</palavra>
+        <palavra>Gusttavo lima</palavra>
+        <palavra>Ivete sangalo</palavra>
+        <palavra>Legião urbana</palavra>
+        <palavra>Leonardo</palavra>
+        <palavra>Luan santana</palavra>
+        <palavra>Lucas lucco</palavra>
+        <palavra>Malta</palavra>
+        <palavra>Mamonas assassinas</palavra>
+        <palavra>Michel teló</palavra>
+        <palavra>Nando reis</palavra>
+        <palavra>Natiruts</palavra>
+        <palavra>Negra li</palavra>
+        <palavra>Netinho de paula</palavra>
+        <palavra>Olodum</palavra>
+        <palavra>Pablo</palavra>
+        <palavra>Paulo ricardo</palavra>
+        <palavra>Péricles</palavra>
+        <palavra>Rita lee</palavra>
+        <palavra>Roberta miranda</palavra>
+        <palavra>Roberto carlos</palavra>
+        <palavra>Sérgio reis</palavra>
+        <palavra>Skank</palavra>
+        <palavra>Sula miranda</palavra>
+        <palavra>Titãs</palavra>
+        <palavra>Toquinho</palavra>
+        <palavra>Ultraje a rigor</palavra>
+        <palavra>Valesca popozuda</palavra>
+        <palavra>Vanusa</palavra>
+        <palavra>Victor e leo</palavra>
+        <palavra>Vinny</palavra>
+        <palavra>Xanddy</palavra>
+        <palavra>Xuxa</palavra>
+        <palavra>Zélia duncan</palavra>
+        <palavra>Zezé di Camargo e Luciano</palavra>
+        <palavra>Zizi possi</palavra>
+        <palavra>Folk</palavra>
+        <palavra>Country</palavra>
+        <palavra>Rock</palavra>
+        <palavra>Gospel</palavra>
+        <palavra>Jazz</palavra>
+        <palavra>Latina</palavra>
+        <palavra>Samba</palavra>
+        <palavra>Rap</palavra>
+        <palavra>Hip hop</palavra>
+        <palavra>Reggae</palavra>
+        <palavra>Heavy metal</palavra>
+        <palavra>Punk</palavra>
+        <palavra>Pop</palavra>
+        <palavra>Axé</palavra>
+        <palavra>Funk</palavra>
+        <palavra>Flamenco</palavra>
+        <palavra>Swingueira</palavra>
+        <palavra>Pagode</palavra>
+        <palavra>Bolero</palavra>
+        <palavra>Forró</palavra>
+        <palavra>Xaxado</palavra>
+        <palavra>Calypso</palavra>
+        <palavra>Merengue</palavra>
+        <palavra>Rhumba</palavra>
+        <palavra>Dance</palavra>
+        <palavra>Emo</palavra>
+        <palavra>Rádio</palavra>
+        <palavra>Estação</palavra>
+        <palavra>CD</palavra>
+        <palavra>Fita K7</palavra>
+        <palavra>MP3</palavra>
+        <palavra>A Cappella</palavra>
+        <palavra>Coral</palavra>
+        <palavra>Banda</palavra>
+        <palavra>Kizomba</palavra>
+        <palavra>Zouk</palavra>
+        <palavra>Bachata</palavra>
+        <palavra>Blues</palavra>
+        <palavra>Manguebit</palavra>
+        <palavra>Frevo</palavra>
+        <palavra>Brega</palavra>
+        <palavra>Salsa</palavra>
+        <palavra>Bossa nova</palavra>
+        <palavra>Carimbó</palavra>
+        <palavra>Tango</palavra>
+        <palavra>Mambo</palavra>
+        <palavra>Cumbia</palavra>
+        <palavra>Lambada</palavra>
+        <palavra>Sertanejo</palavra>
+        <palavra>Serenata</palavra>
+        <palavra>Ópera</palavra>
+        <palavra>Sinfonia</palavra>
+        <palavra>Sonata</palavra>
+        <palavra>Notas</palavra>
+        <palavra>Microfone</palavra>
+        <palavra>Baixo</palavra>
+        <palavra>Guitarra</palavra>
+        <palavra>Violão</palavra>
+        <palavra>Bateria</palavra>
+        <palavra>Saxofone</palavra>
+        <palavra>Trompete</palavra>
+        <palavra>Xilofone</palavra>
+        <palavra>Sanfona</palavra>
+        <palavra>Rave</palavra>
+        <palavra>Carnaval</palavra>
+        <palavra>Show</palavra>
+        <palavra>Bandolim</palavra>
+        <palavra>Banjo</palavra>
+        <palavra>Cavaquinho</palavra>
+        <palavra>Berimbau</palavra>
+        <palavra>Tuba</palavra>
+        <palavra>Clarim</palavra>
+        <palavra>Gaita</palavra>
+        <palavra>Flauta</palavra>
+        <palavra>Órgão</palavra>
+        <palavra>Teclado</palavra>
+        <palavra>Piano</palavra>
+        <palavra>Violino</palavra>
+        <palavra>Ganzá</palavra>
+        <palavra>Triângulo</palavra>
+        <palavra>Cuíca</palavra>
+        <palavra>Pandeiro</palavra>
+        <palavra>Tambor</palavra>
+        <palavra>Tamborim</palavra>
+        <palavra>Zabumba</palavra>
+        <palavra>MPB</palavra>
+        <palavra>Chico Science</palavra>
+        <palavra>Jovem guarda</palavra>
+        <palavra>Ana carolina</palavra>
+        <palavra>Psirico</palavra>
+        <palavra>Bruno e marrone</palavra>
+        <palavra>Caetano Veloso</palavra>
+        <palavra>Chiclete com Banana</palavra>
+        <palavra>Gabriel o pensador</palavra>
+        <palavra>Elton John</palavra>
+        <palavra>Beatles</palavra>
+        <palavra>Rolling Stones</palavra>
+        <palavra>Michael Jackson</palavra>
+        <palavra>Molejo</palavra>
+        <palavra>Raça negra</palavra>
+        <palavra>Renato russo</palavra>
+        <palavra>Wesley Safadão</palavra>
+        <palavra>Queen</palavra>
+        <palavra>Amy winehouse</palavra>
+        <palavra>Backstreet Boys</palavra>
+        <palavra>Bon jovi</palavra>
+        <palavra>Justin bieber</palavra>
+        <palavra>Nirvana</palavra>
+        <palavra>Red Hot Chili Peppers</palavra>
+        <palavra>U2</palavra>
+        <palavra>Falamansa</palavra>
+        <palavra>Falcão</palavra>
+        <palavra>Jackson do pandeiro</palavra>
+        <palavra>Jorge ben jor</palavra>
+        <palavra>Kid abelha</palavra>
+        <palavra>KLB</palavra>
+        <palavra>Latino</palavra>
+        <palavra>Lenine</palavra>
+        <palavra>Luiz gonzaga</palavra>
+        <palavra>Marcelo D2</palavra>
+        <palavra>Maria rita</palavra>
+        <palavra>Milton nascimento</palavra>
+        <palavra>O rappa</palavra>
+        <palavra>Roupa nova</palavra>
+        <palavra>Só pra contrariar</palavra>
+        <palavra>Tchaka bum</palavra>
+        <palavra>The fevers</palavra>
+        <palavra>Alfaia</palavra>
+        <palavra>Timbalada</palavra>
+        <palavra>Zé ramalho</palavra>
+        <palavra>Zeca baleiro</palavra>
+        <palavra>Abba</palavra>
+        <palavra>Avril lavigne</palavra>
+        <palavra>Bee gees</palavra>
+        <palavra>Beyonce</palavra>
+        <palavra>Black eyed peas</palavra>
+        <palavra>Bruno mars</palavra>
+        <palavra>Coldplay</palavra>
+        <palavra>Eminem</palavra>
+        <palavra>Frank sinatra</palavra>
+        <palavra>Stevie wonder</palavra>
+        <palavra>Shakira</palavra>
+        <palavra>Whitney houston</palavra>
+        <palavra>Santana</palavra>
+        <palavra>Ricky Martin</palavra>
+        <palavra>Pink</palavra>
+        <palavra>Cartola</palavra>
+        <palavra>Timbal</palavra>
+        <palavra>Surdo</palavra>
+        <palavra>DJ</palavra>
+        <palavra>Anitta</palavra>
+        <palavra>Pablo Vittar</palavra>
+        <palavra>Arranjo</palavra>
+        <palavra>Rabeca</palavra>
+        <palavra>Toada</palavra>
+        <palavra>Zeca Pagodinho</palavra>
+        <palavra>Melódico</palavra>
+        <palavra>Harpa</palavra>
+        <palavra>Jorge &amp; Mateus</palavra>
+        <palavra>MC Kevinho</palavra>
+        <palavra>Marília Mendonça</palavra>
+        <palavra>Nego do Borel</palavra>
+        <palavra>Despacito</palavra>
+        <palavra>Garota de Ipanema</palavra>
+        <palavra>Yesterday</palavra>
+        <palavra>Bohemian Rhapsody</palavra>
+        <palavra>Hino</palavra>
+        <palavra>Billie Jean</palavra>
+        <palavra>Imagine</palavra>
+        <palavra>Spotify</palavra>
+        <palavra>Deezer</palavra>
+        <palavra>Apple Music</palavra>
+        <palavra>Produção</palavra>
+        <palavra>DVD</palavra>
+        <palavra>Smells Like Teen Spirit</palavra>
+        <palavra>Cantiga</palavra>
+        <palavra>Indie</palavra>
+        <palavra>Yê-yê-yê</palavra>
+        <palavra>Raul Seixas</palavra>
+        <palavra>Baião</palavra>
+        <palavra>Pé de Serra</palavra>
+        <palavra>Maracatu</palavra>
+        <palavra>Afoxé</palavra>
+        <palavra>Beethoven</palavra>
+        <palavra>Carlinhos Brown</palavra>
+        <palavra>Felipe Dylon</palavra>
+        <palavra>Secos &amp; Molhados</palavra>
+        <palavra>David Bowie</palavra>
+        <palavra>Elis Regina</palavra>
+        <palavra>Reco Reco</palavra>
+        <palavra>Tom</palavra>
+        <palavra>Instrumento de Corda</palavra>
+        <palavra>Percussão</palavra>
+        <palavra>Bloco</palavra>
+        <palavra>Gonguê</palavra>
+        <palavra>Tim Maia</palavra>
+        <palavra>Marisa Monte</palavra>
+        <palavra>Djavan</palavra>
+        <palavra>Thiaguinho</palavra>
+        <palavra>Pitty</palavra>
+        <palavra>Lulu Santos</palavra>
+        <palavra>Tiago Iorc</palavra>
+        <palavra>Jorge e Mateus</palavra>
+        <palavra>Charlie Brown Jr</palavra>
+        <palavra>Hungria</palavra>
+        <palavra>Sorriso Maroto</palavra>
+        <palavra>Simone e Simaria</palavra>
+        <palavra>Jota Quest</palavra>
+        <palavra>Diante do Trono</palavra>
+        <palavra>Engenheiros do Hawaii</palavra>
+        <palavra>Maria Gadú</palavra>
+        <palavra>Sandy &amp; Junior</palavra>
+        <palavra>Aviões do Forró</palavra>
+        <palavra>NX Zero</palavra>
+        <palavra>Raimundos</palavra>
+    </tema>
+    <tema nome="The Beatles">
+        <palavra>George Harrison</palavra>
+        <palavra>Ringo Starr</palavra>
+        <palavra>Paul McCartney</palavra>
+        <palavra>John Lennon</palavra>
+        <palavra>Stuart Sutcliffe</palavra>
+        <palavra>Pete Best</palavra>
+        <palavra>George Martin</palavra>
+        <palavra>Eric Clapton</palavra>
+        <palavra>Billy Preston</palavra>
+        <palavra>Carl Harrison</palavra>
+        <palavra>Paul Ramon</palavra>
+        <palavra>Long John</palavra>
+        <palavra>Stuart de Stael </palavra>
+        <palavra>Ed Sullivan</palavra>
+        <palavra>Brian Epstein</palavra>
+        <palavra>Yoko Ono</palavra>
+        <palavra>Mark David Chapman</palavra>
+        <palavra>Bob Dylan</palavra>
+        <palavra>Maharishi</palavra>
+        <palavra>Astrid Kirchherr </palavra>
+        <palavra>Julia Lennon</palavra>
+        <palavra>Olivia Harrison</palavra>
+        <palavra>Linda McCartney</palavra>
+        <palavra>Sean Lennon</palavra>
+        <palavra>Elvis Presley</palavra>
+        <palavra>Please Please Me</palavra>
+        <palavra>With the Beatles</palavra>
+        <palavra>Beatles for Sale</palavra>
+        <palavra>A Hard Day’s Night</palavra>
+        <palavra>Help!</palavra>
+        <palavra>Rubber Soul</palavra>
+        <palavra>Revolver</palavra>
+        <palavra>Sgt. Pepper’s LHCB</palavra>
+        <palavra>Magical Mystery Tour</palavra>
+        <palavra>The White Album</palavra>
+        <palavra>Abbey Road</palavra>
+        <palavra>Let it Be</palavra>
+        <palavra>Anthology</palavra>
+        <palavra>Liverpool</palavra>
+        <palavra>Cavern Club</palavra>
+        <palavra>The Jacaranda</palavra>
+        <palavra>Crosswalk</palavra>
+        <palavra>Shea Stadium</palavra>
+        <palavra>India</palavra>
+        <palavra>Penny Lane</palavra>
+        <palavra>Hamburg</palavra>
+        <palavra>Royal Albert Hall</palavra>
+        <palavra>Apple Records</palavra>
+        <palavra>Kansas City</palavra>
+        <palavra>Rooftop</palavra>
+        <palavra>U.S.S.R.</palavra>
+        <palavra>The Bathroom Window</palavra>
+        <palavra>Blackburn Lancashire</palavra>
+        <palavra>Tucson, Arizona</palavra>
+        <palavra>Strawberries Fields</palavra>
+        <palavra>Estúdio</palavra>
+        <palavra>Palco</palavra>
+        <palavra>Inglaterra</palavra>
+        <palavra>Reino Unido</palavra>
+        <palavra>Amsterdam Hilton</palavra>
+        <palavra>Londres</palavra>
+        <palavra>Fab Four</palavra>
+        <palavra>The Silver Beatles</palavra>
+        <palavra>The Beatles</palavra>
+        <palavra>Violão</palavra>
+        <palavra>Guitarra</palavra>
+        <palavra>Baixo</palavra>
+        <palavra>Bateria</palavra>
+        <palavra>Vocais</palavra>
+        <palavra>Hoffman (Bass)</palavra>
+        <palavra>Ludwig (Drums)</palavra>
+        <palavra>Epiphone Casino (Guitar)</palavra>
+        <palavra>Fender</palavra>
+        <palavra>Country Gentleman (Guitar)</palavra>
+        <palavra>Duo Jet (Guitar)</palavra>
+        <palavra>Rickenbacker (Guitar)</palavra>
+        <palavra>The Rolling Stones</palavra>
+        <palavra>LSD</palavra>
+        <palavra>Canhoto</palavra>
+        <palavra>Solo de guitarra</palavra>
+        <palavra>Compositor</palavra>
+        <palavra>Lennon/McCartney</palavra>
+        <palavra>Stereo</palavra>
+        <palavra>Mono</palavra>
+        <palavra>O monstro de 4 cabeças</palavra>
+        <palavra>O beatle quieto</palavra>
+        <palavra>O beatle esperto</palavra>
+        <palavra>O beatle engraçado</palavra>
+        <palavra>O beatle fofo</palavra>
+        <palavra>Hinduísmo</palavra>
+        <palavra>Beatlemania</palavra>
+        <palavra>Rock and Roll</palavra>
+        <palavra>Anos 60</palavra>
+        <palavra>Corte de cabelo</palavra>
+        <palavra>Roupa combinando</palavra>
+        <palavra>Cítara</palavra>
+        <palavra>Solo de bateria</palavra>
+        <palavra>Letras</palavra>
+        <palavra>&quot;...Just rattle your jewelry&quot;</palavra>
+        <palavra>Green Apple</palavra>
+        <palavra>Capa de álbum</palavra>
+        <palavra>LP</palavra>
+        <palavra>Single</palavra>
+        <palavra>Orquestra</palavra>
+        <palavra>Violino</palavra>
+        <palavra>Álbum duplo</palavra>
+        <palavra>Disco de ouro</palavra>
+        <palavra>Vinil</palavra>
+        <palavra>Maconha</palavra>
+        <palavra>Banda</palavra>
+        <palavra>Colagem</palavra>
+        <palavra>Psicodélico</palavra>
+        <palavra>Progressivo</palavra>
+        <palavra>Pop</palavra>
+        <palavra>Rory and the Hurricanes</palavra>
+        <palavra>The Quarrymen</palavra>
+        <palavra>Remasterização</palavra>
+        <palavra>Piano</palavra>
+        <palavra>Sintetizador</palavra>
+        <palavra>Filmes</palavra>
+        <palavra>Silver Hammer</palavra>
+        <palavra>Pet Sounds</palavra>
+        <palavra>Pés descalços</palavra>
+        <palavra>Power Chord</palavra>
+        <palavra>Introdução</palavra>
+        <palavra>1963</palavra>
+        <palavra>1967</palavra>
+        <palavra>1969</palavra>
+        <palavra>1970</palavra>
+        <palavra>Desmond</palavra>
+        <palavra>Jojo</palavra>
+        <palavra>Martha</palavra>
+        <palavra>Prudence</palavra>
+        <palavra>Jude</palavra>
+        <palavra>Sadie</palavra>
+        <palavra>Maxwell Edison</palavra>
+        <palavra>Bungalow Bill</palavra>
+        <palavra>Michelle</palavra>
+        <palavra>Billy Shears</palavra>
+        <palavra>Sgt. Pepper</palavra>
+        <palavra>Father McKenzie</palavra>
+        <palavra>Mister Postman</palavra>
+        <palavra>Mr Moonlight</palavra>
+        <palavra>Lucy</palavra>
+        <palavra>Mr Kite</palavra>
+        <palavra>Rita</palavra>
+        <palavra>Mr. Mustard</palavra>
+        <palavra>Polythene Pam</palavra>
+        <palavra>Loretta Martin</palavra>
+        <palavra>Her Majesty</palavra>
+        <palavra>Blue Meanies</palavra>
+        <palavra>Dr. Robert</palavra>
+        <palavra>Joan</palavra>
+        <palavra>Molly</palavra>
+        <palavra>The Fool</palavra>
+        <palavra>Rose and Valerie</palavra>
+        <palavra>Beethoven</palavra>
+        <palavra>Mr. Wilson</palavra>
+        <palavra>Mr. Heath</palavra>
+        <palavra>Henry, the Horse</palavra>
+        <palavra>Semolina Pilchard</palavra>
+        <palavra>Edgar Alan Poe</palavra>
+        <palavra>Mother Superior</palavra>
+        <palavra>My Monkey</palavra>
+        <palavra>My Guitar</palavra>
+        <palavra>Anna</palavra>
+        <palavra>Sun King</palavra>
+        <palavra>Miss Lizzie</palavra>
+        <palavra>Maggie Mae</palavra>
+        <palavra>Let it Be</palavra>
+        <palavra>Eleanor Rigby</palavra>
+        <palavra>Blackbird</palavra>
+        <palavra>I Am The Walrus</palavra>
+        <palavra>Revolution 9</palavra>
+        <palavra>Your Mother Should Know</palavra>
+        <palavra>When I’m Sixty-Four</palavra>
+        <palavra>Yellow Submarine</palavra>
+        <palavra>Twist and Shout</palavra>
+        <palavra>Helter Skelter</palavra>
+        <palavra>Can’t Buy Me Love</palavra>
+        <palavra>All You Need is Love</palavra>
+        <palavra>Eight Days a Week</palavra>
+        <palavra>Lady Madonna</palavra>
+        <palavra>Nowhere Man</palavra>
+        <palavra>Rocky Raccoon</palavra>
+        <palavra>Taxman</palavra>
+        <palavra>Yesterday</palavra>
+        <palavra>Ticket to Ride</palavra>
+        <palavra>The End</palavra>
+        <palavra>Hello Goodbye</palavra>
+        <palavra>Ob-La-Di, Ob-La-Da</palavra>
+        <palavra>Octopus’ Garden</palavra>
+        <palavra>I Wanna Be Your Man</palavra>
+        <palavra>Here Comes the Sun</palavra>
+        <palavra>Something</palavra>
+        <palavra>With a Little Help From My Friends</palavra>
+        <palavra>I’ve Just Seen a Face</palavra>
+        <palavra>“The Walrus was Paul”</palavra>
+        <palavra>“Is a warm gun”</palavra>
+        <palavra>“1 and 1 and 1 is 3”</palavra>
+        <palavra>“Jai Guru Deva Om”</palavra>
+        <palavra>“Not just anybody”</palavra>
+        <palavra>“It can’t get no worse”</palavra>
+    </tema>
+    <tema nome="Futebol">
+        <palavra>CBD</palavra>
+        <palavra>Copa do Brasil</palavra>
+        <palavra>Copa dos Campeões </palavra>
+        <palavra>Torcida Organizada</palavra>
+        <palavra>Torcida de Barra</palavra>
+        <palavra>Clássico</palavra>
+        <palavra>Brasil 1 x 7 Alemanha</palavra>
+        <palavra>Replay</palavra>
+        <palavra>Galvão Bueno</palavra>
+        <palavra>Mascote</palavra>
+        <palavra>Rebaixamento</palavra>
+        <palavra>Ilha do Retiro</palavra>
+        <palavra>Aflitos</palavra>
+        <palavra>Arruda</palavra>
+        <palavra>Arena de Pernambuco</palavra>
+        <palavra>Olímpico </palavra>
+        <palavra>Arena do Grêmio</palavra>
+        <palavra>Beira Rio</palavra>
+        <palavra>Arena da Baixada</palavra>
+        <palavra>Couto Pereira</palavra>
+        <palavra>Vila Capanema</palavra>
+        <palavra>Major League Soccer</palavra>
+        <palavra>Copa do Nordeste</palavra>
+        <palavra>Copa Verde</palavra>
+        <palavra>Sport Recife</palavra>
+        <palavra>Náutico</palavra>
+        <palavra>Santa Cruz</palavra>
+        <palavra>Internacional</palavra>
+        <palavra>Grêmio</palavra>
+        <palavra>Atlético-PR</palavra>
+        <palavra>Coritiba</palavra>
+        <palavra>Paraná</palavra>
+        <palavra>ESPN</palavra>
+        <palavra>Sportv</palavra>
+        <palavra>Esporte Interativo</palavra>
+        <palavra>Fox Sports</palavra>
+        <palavra>Globo Esporte</palavra>
+        <palavra>Lance!</palavra>
+        <palavra>Revista Placar</palavra>
+        <palavra>Narrador</palavra>
+        <palavra>Comentarista</palavra>
+        <palavra>Repórter </palavra>
+        <palavra>Goleiro</palavra>
+        <palavra>Zagueiro</palavra>
+        <palavra>Lateral</palavra>
+        <palavra>Meio Campista</palavra>
+        <palavra>Atacante</palavra>
+        <palavra>Treinador</palavra>
+        <palavra>FIFA</palavra>
+        <palavra>Copa do Mundo</palavra>
+        <palavra>Eurocopa</palavra>
+        <palavra>Copa das confederações</palavra>
+        <palavra>CONCACAF</palavra>
+        <palavra>CONMEBOL</palavra>
+        <palavra>Copa das Nações Africanas</palavra>
+        <palavra>Copa da Ásia</palavra>
+        <palavra>Brasil 2014</palavra>
+        <palavra>Africa do Sul 2010</palavra>
+        <palavra>Neymar</palavra>
+        <palavra>Kaká</palavra>
+        <palavra>Pelé</palavra>
+        <palavra>Mineiro</palavra>
+        <palavra>David Villa</palavra>
+        <palavra>Frank Lampard</palavra>
+        <palavra>Steven Gerrard</palavra>
+        <palavra>Cleiton Xavier</palavra>
+        <palavra>Diego Souza</palavra>
+        <palavra>Robinho</palavra>
+        <palavra>Fred</palavra>
+        <palavra>Marcos</palavra>
+        <palavra>Rogério Ceni</palavra>
+        <palavra>Carlinhos Bala</palavra>
+        <palavra>Dedé</palavra>
+        <palavra>Bebeto</palavra>
+        <palavra>Maradona </palavra>
+        <palavra>Eusébio</palavra>
+        <palavra>Cruyff</palavra>
+        <palavra>Beckenbauer</palavra>
+        <palavra>Di Stéfano</palavra>
+        <palavra>Puskás</palavra>
+        <palavra>Platini</palavra>
+        <palavra>Garrincha</palavra>
+        <palavra>Gareth Bale</palavra>
+        <palavra>Cristiano Ronaldo</palavra>
+        <palavra>Sergio Agüero</palavra>
+        <palavra>Gianluigi Buffon</palavra>
+        <palavra>Kevin De Bruyne</palavra>
+        <palavra>Antoine Griezmann</palavra>
+        <palavra>Zlatan Ibrahimovic</palavra>
+        <palavra>Andrés Iniesta</palavra>
+        <palavra>N&apos;Golo Kanté</palavra>
+        <palavra>Toni Kroos</palavra>
+        <palavra>Robert Lewandowski</palavra>
+        <palavra>Lionel Messi</palavra>
+        <palavra>Riyad Mahrez</palavra>
+        <palavra>Luka Modric</palavra>
+        <palavra>Manuel Neuer</palavra>
+        <palavra>Mesut Özil</palavra>
+        <palavra>Dimitri Payet</palavra>
+        <palavra>Paul Pogba</palavra>
+        <palavra>Sergio Ramos</palavra>
+        <palavra>Alexis Sánchez</palavra>
+        <palavra>Luis Suárez</palavra>
+        <palavra>Jamie Vardy</palavra>
+        <palavra>Ronaldinho Gaúcho</palavra>
+        <palavra>Ronaldo</palavra>
+        <palavra>Tiro de Meta</palavra>
+        <palavra>Pênalti</palavra>
+        <palavra>Gol de cabeça</palavra>
+        <palavra>Baliza</palavra>
+        <palavra>Drible</palavra>
+        <palavra>Chute</palavra>
+        <palavra>Gol de bicicleta</palavra>
+        <palavra>Gol contra</palavra>
+        <palavra>Assistencia</palavra>
+        <palavra>Trivela</palavra>
+        <palavra>Boleiro</palavra>
+        <palavra>Gol nos acréscimos</palavra>
+        <palavra>Apito</palavra>
+        <palavra>Juiz</palavra>
+        <palavra>Bandeirinha</palavra>
+        <palavra>Campeão</palavra>
+        <palavra>Liga dos Campeões da UEFA</palavra>
+        <palavra>UEFA Europa League</palavra>
+        <palavra>Real Madrid</palavra>
+        <palavra>AC Milan</palavra>
+        <palavra>FC Bayern München</palavra>
+        <palavra>FC Barcelona</palavra>
+        <palavra>Liverpool FC</palavra>
+        <palavra>Ajax</palavra>
+        <palavra>Manchester United</palavra>
+        <palavra>Internazionale</palavra>
+        <palavra>Juventus</palavra>
+        <palavra>Benfica</palavra>
+        <palavra>Porto</palavra>
+        <palavra>Chelsea</palavra>
+        <palavra>Borussia Dortmund</palavra>
+        <palavra>Hamburgo</palavra>
+        <palavra>Olympique de Marselha</palavra>
+        <palavra>PSV</palavra>
+        <palavra>Feyenoord</palavra>
+        <palavra>Aston Villa</palavra>
+        <palavra>Atlético de Madrid</palavra>
+        <palavra>Valencia</palavra>
+        <palavra>Panathinaikos</palavra>
+        <palavra>Mônaco</palavra>
+        <palavra>Saint-Etienne</palavra>
+        <palavra>PSG</palavra>
+        <palavra>Dínamo Kiev</palavra>
+        <palavra>Bayer Leverkusen</palavra>
+        <palavra>Lyon</palavra>
+        <palavra>Schalke 04</palavra>
+        <palavra>Manchester City</palavra>
+        <palavra>San Siro</palavra>
+        <palavra>Estádio da Luz</palavra>
+        <palavra>Wembley Stadium</palavra>
+        <palavra>Allianz Arena</palavra>
+        <palavra>Santiago Bernabéu </palavra>
+        <palavra>Old Trafford</palavra>
+        <palavra>Camp Nou</palavra>
+        <palavra>Parc des Princes</palavra>
+        <palavra>Adidas</palavra>
+        <palavra>Nike</palavra>
+        <palavra>Puma</palavra>
+        <palavra>Under Amour</palavra>
+        <palavra>Reebok</palavra>
+        <palavra>Umbro</palavra>
+        <palavra>Topper</palavra>
+        <palavra>Penalty</palavra>
+        <palavra>José Mourinho</palavra>
+        <palavra>Fabio Cappelo</palavra>
+        <palavra>Louis Van Gaal</palavra>
+        <palavra>Sir Alex Ferguson</palavra>
+        <palavra>Simeone</palavra>
+        <palavra>Pep Guardiola</palavra>
+        <palavra>Jurgen Klopp</palavra>
+        <palavra>Zinédine Zidane</palavra>
+        <palavra>Varderlei Luxerburgo</palavra>
+        <palavra>Tite</palavra>
+        <palavra>Felipe Scolari</palavra>
+        <palavra>Muricy Ramalho</palavra>
+        <palavra>Nelsinho Baptista</palavra>
+        <palavra>Joel Santana</palavra>
+        <palavra>Mano Menezes</palavra>
+        <palavra>Professor Waldemar</palavra>
+        <palavra>Carlos Alberto Parreira</palavra>
+        <palavra>René Simões</palavra>
+        <palavra>Zagallo</palavra>
+        <palavra>Palmeiras</palavra>
+        <palavra>Palestra Itália </palavra>
+        <palavra>São Paulo</palavra>
+        <palavra>Morumbi</palavra>
+        <palavra>Corinthians</palavra>
+        <palavra>Pacaembu</palavra>
+        <palavra>Santos</palavra>
+        <palavra>Vila Belmiro</palavra>
+        <palavra>Portuguesa</palavra>
+        <palavra>Santo André</palavra>
+        <palavra>Paulista</palavra>
+        <palavra>Oeste</palavra>
+        <palavra>Ponte Preta</palavra>
+        <palavra>Moisés Lucarelli</palavra>
+        <palavra>Guarani</palavra>
+        <palavra>Estádio Brinco de Ouro</palavra>
+        <palavra>Avaí</palavra>
+        <palavra>Ressacada</palavra>
+        <palavra>Joinville</palavra>
+        <palavra>Arena Joinville</palavra>
+        <palavra>Figueirense</palavra>
+        <palavra>Orlando Scarpelli</palavra>
+        <palavra>Chapecoense</palavra>
+        <palavra>Arena Condá</palavra>
+        <palavra>Criciúma</palavra>
+        <palavra>Estádio Heriberto Hülse</palavra>
+        <palavra>Luverdense</palavra>
+        <palavra>Arena Pantanal</palavra>
+        <palavra>Arena da Amazônia</palavra>
+        <palavra>Estádio Mané Garrinha</palavra>
+        <palavra>Brasiliense</palavra>
+        <palavra>Gama</palavra>
+        <palavra>Goiás</palavra>
+        <palavra>Serra Dourada</palavra>
+        <palavra>Vila Nova</palavra>
+        <palavra>Londrina</palavra>
+        <palavra>Cruzeiro</palavra>
+        <palavra>Mineirão</palavra>
+        <palavra>América-MG</palavra>
+        <palavra>Estádio Independência</palavra>
+        <palavra>Atlético-MG</palavra>
+        <palavra>Bahia</palavra>
+        <palavra>Fonte Nova</palavra>
+        <palavra>Vitória</palavra>
+        <palavra>Estádio Barradão</palavra>
+        <palavra>Ceará</palavra>
+        <palavra>Fortaleza</palavra>
+        <palavra>Castelão</palavra>
+        <palavra>Sampaio Corrêa</palavra>
+        <palavra>ABC</palavra>
+        <palavra>América-RN</palavra>
+        <palavra>Confiança</palavra>
+        <palavra>Arena das Dunas</palavra>
+        <palavra>Paysandu</palavra>
+        <palavra>Remo</palavra>
+        <palavra>Mangueirão</palavra>
+        <palavra>Maracanã</palavra>
+        <palavra>Engenhão</palavra>
+        <palavra>São Januário</palavra>
+        <palavra>Botafogo</palavra>
+        <palavra>Vasco da Gama</palavra>
+        <palavra>Flumeninse</palavra>
+        <palavra>Flamengo</palavra>
+        <palavra>Juventude</palavra>
+    </tema>
+    <tema nome="Celebridades">
+        <palavra>Neymar</palavra>
+        <palavra>Kaká</palavra>
+        <palavra>Pelé</palavra>
+        <palavra>Gareth Bale</palavra>
+        <palavra>Cristiano Ronaldo</palavra>
+        <palavra>Gianluigi Buffon</palavra>
+        <palavra>Lionel Messi</palavra>
+        <palavra>Bambam</palavra>
+        <palavra>Fábio Porchat</palavra>
+        <palavra>Gregorio Duvivier</palavra>
+        <palavra>Caio Castro</palavra>
+        <palavra>Arnold Schwarzenegger</palavra>
+        <palavra>John Travolta</palavra>
+        <palavra>Osama Bin Laden</palavra>
+        <palavra>Hugo Chávez</palavra>
+        <palavra>Michael Schumacher</palavra>
+        <palavra>Angelina Jolie</palavra>
+        <palavra>Brad Pitt</palavra>
+        <palavra>Madonna</palavra>
+        <palavra>Britney Spears</palavra>
+        <palavra>Justin Timberlake</palavra>
+        <palavra>Demi Lovato</palavra>
+        <palavra>Miley Cyrus</palavra>
+        <palavra>Jennifer Lopez</palavra>
+        <palavra>Taylor Swift</palavra>
+        <palavra>Selena Gomez</palavra>
+        <palavra>Nicki Minaj</palavra>
+        <palavra>MC Kevinho</palavra>
+        <palavra>Nego do Borel</palavra>
+        <palavra>Gabriel Medina</palavra>
+        <palavra>Marília Mendonça</palavra>
+        <palavra>Michael Jackson</palavra>
+        <palavra>John Lennon</palavra>
+        <palavra>Barack Obama</palavra>
+        <palavra>Michelle Obama</palavra>
+        <palavra>Paul Mccartney</palavra>
+        <palavra>David Beckham</palavra>
+        <palavra>Michael Jordan</palavra>
+        <palavra>Roger Federer</palavra>
+        <palavra>Elton John</palavra>
+        <palavra>Valdemiro Santiago</palavra>
+        <palavra>Beto Carrero</palavra>
+        <palavra>Chico Mendes</palavra>
+        <palavra>Eike Batista</palavra>
+        <palavra>Chico Anysio</palavra>
+        <palavra>Chico Xavier</palavra>
+        <palavra>Oscar Niemayer</palavra>
+        <palavra>Marcelo Rezende</palavra>
+        <palavra>Tirulipa</palavra>
+        <palavra>Cauã Reymond</palavra>
+        <palavra>Patricia Abravanel</palavra>
+        <palavra>Ana Hickmann</palavra>
+        <palavra>Roberta Miranda</palavra>
+        <palavra>Adriane Gaslisteu</palavra>
+        <palavra>Cleo Pires</palavra>
+        <palavra>Mamma Bruschetta</palavra>
+        <palavra>Zezé de Camargo</palavra>
+        <palavra>Bruna Marquezine</palavra>
+        <palavra>Grazi Massafera</palavra>
+        <palavra>Tom Cruise</palavra>
+        <palavra>Freddie Mercury</palavra>
+        <palavra>Elvis Presley</palavra>
+        <palavra>Lewis Hamilton</palavra>
+        <palavra>Novak Djokovic</palavra>
+        <palavra>Justin Bieber</palavra>
+        <palavra>Jackie Chan</palavra>
+        <palavra>Rihanna</palavra>
+        <palavra>Stan Lee</palavra>
+        <palavra>Robert Downey Jr.</palavra>
+        <palavra>Vinicius de Moraes</palavra>
+        <palavra>Jorge Ben Jor</palavra>
+        <palavra>Cartola</palavra>
+        <palavra>Tom Zé</palavra>
+        <palavra>Tom Jobim</palavra>
+        <palavra>Toquinho</palavra>
+        <palavra>Chico Buarque</palavra>
+        <palavra>Carmem Miranda</palavra>
+        <palavra>Martinho da Vila</palavra>
+        <palavra>Arlindo Cruz</palavra>
+        <palavra>Maria Bethania</palavra>
+        <palavra>Jorge Aragão</palavra>
+        <palavra>Silvio Santos</palavra>
+        <palavra>Lombardi</palavra>
+        <palavra>Roberto Marinho</palavra>
+        <palavra>William Bonner</palavra>
+        <palavra>Fátima Bernardes</palavra>
+        <palavra>Ana Maria Braga</palavra>
+        <palavra>Louro José</palavra>
+        <palavra>Anitta</palavra>
+        <palavra>Pabllo Vittar</palavra>
+        <palavra>Ronaldinho Gaucho</palavra>
+        <palavra>Ronaldo Fenômeno</palavra>
+        <palavra>Fabio Assunção</palavra>
+        <palavra>William Waack</palavra>
+        <palavra>Michel Temer</palavra>
+        <palavra>Jean Wyllys</palavra>
+        <palavra>Trump</palavra>
+        <palavra>Lula</palavra>
+        <palavra>Carlinhos Maia</palavra>
+        <palavra>Dilma Rousseff</palavra>
+        <palavra>Felipe Neto</palavra>
+        <palavra>Whindersson Nunes</palavra>
+        <palavra>Faustão</palavra>
+        <palavra>Gugu Liberato</palavra>
+        <palavra>Xuxa Meneghel</palavra>
+        <palavra>Sasha Meneghel</palavra>
+        <palavra>Felipe Castanhari</palavra>
+        <palavra>Sabrina Sato</palavra>
+        <palavra>Deborah Secco</palavra>
+        <palavra>Ivete Sangalo</palavra>
+        <palavra>Claudia Leitte</palavra>
+        <palavra>Raul Seixas</palavra>
+        <palavra>FHC</palavra>
+        <palavra>Bell Marques</palavra>
+        <palavra>Wesley Safadão</palavra>
+        <palavra>Sheila Mello</palavra>
+        <palavra>MC Leozinho</palavra>
+        <palavra>Ana Paula Oliveira</palavra>
+        <palavra>Karina Bacchi</palavra>
+        <palavra>Dado Dolabella</palavra>
+        <palavra>Théo Becker</palavra>
+        <palavra>Tico Santa Cruz</palavra>
+        <palavra>Geisy Arruda</palavra>
+        <palavra>Monique Evans</palavra>
+        <palavra>Valesca Popozuda</palavra>
+        <palavra>João Kléber</palavra>
+        <palavra>Viviane Araújo</palavra>
+        <palavra>Gretchen</palavra>
+        <palavra>Sylvinho Blau-Blau</palavra>
+        <palavra>Gominho</palavra>
+        <palavra>Pepê &amp; Neném</palavra>
+        <palavra>Mara Maravilha</palavra>
+        <palavra>Eliana</palavra>
+        <palavra>Luciano Huck</palavra>
+        <palavra>Angélica</palavra>
+        <palavra>Rita Cadillac</palavra>
+        <palavra>Nicole Bahls</palavra>
+        <palavra>Tony Ramos</palavra>
+        <palavra>Fernanda Montenegro</palavra>
+        <palavra>Tarcísio Meira</palavra>
+        <palavra>Danilo Gentili</palavra>
+        <palavra>Jô Soares</palavra>
+        <palavra>Antônio Fagundes</palavra>
+        <palavra>Susana Vieira</palavra>
+        <palavra>Silas Malafaia</palavra>
+        <palavra>Marília Gabriela</palavra>
+        <palavra>Netinho</palavra>
+        <palavra>Belo</palavra>
+        <palavra>Galvão Bueno</palavra>
+        <palavra>Ayrton Senna</palavra>
+        <palavra>Nelsinho Piquet</palavra>
+        <palavra>Felipe Massa</palavra>
+        <palavra>Rubinho Barrichello</palavra>
+        <palavra>Oscar Schmidt</palavra>
+        <palavra>Hortência</palavra>
+        <palavra>Giba</palavra>
+        <palavra>Vanderlei Luxemburgo</palavra>
+        <palavra>Bernardinho</palavra>
+        <palavra>Cid Moreira</palavra>
+        <palavra>Patrícia Poeta</palavra>
+        <palavra>Alexandre Garcia</palavra>
+        <palavra>Evaristo Costa</palavra>
+        <palavra>Chico Pinheiro</palavra>
+        <palavra>Sandra Annenberg</palavra>
+        <palavra>Rodrigo Faro</palavra>
+        <palavra>Carlos Alberto de Nóbrega</palavra>
+        <palavra>Tiririca</palavra>
+        <palavra>Ratinho</palavra>
+        <palavra>Celso Portiolli</palavra>
+        <palavra>Luana Piovani</palavra>
+        <palavra>Paula Fernandes</palavra>
+        <palavra>Thiaguinho</palavra>
+        <palavra>Gisele Bündchen</palavra>
+        <palavra>Rafinha Bastos</palavra>
+        <palavra>Anderson Silva</palavra>
+        <palavra>Tatá Werneck</palavra>
+        <palavra>Jorge &amp; Mateus</palavra>
+        <palavra>MIchel Teló</palavra>
+        <palavra>Lucas Lucco</palavra>
+        <palavra>Gusttavo Lima</palavra>
+        <palavra>Marcos Mion</palavra>
+        <palavra>Luan Santana</palavra>
+        <palavra>Paulo Coelho</palavra>
+        <palavra>David Luiz</palavra>
+        <palavra>Tim Maia</palavra>
+        <palavra>Samuel Rosa</palavra>
+        <palavra>Moraes Moreira</palavra>
+        <palavra>Lobão</palavra>
+        <palavra>Seu Jorge</palavra>
+        <palavra>Fafá de Belém</palavra>
+        <palavra>Elba Ramalho</palavra>
+        <palavra>Zélia Duncan</palavra>
+        <palavra>Gonzaguinha</palavra>
+        <palavra>Fagner</palavra>
+        <palavra>Bezerra da Silva</palavra>
+        <palavra>Belchior</palavra>
+        <palavra>Djavan</palavra>
+        <palavra>Zé Ramalho</palavra>
+        <palavra>Alcione</palavra>
+        <palavra>Cazuza</palavra>
+        <palavra>Gilberto Gil</palavra>
+        <palavra>Nara Leão</palavra>
+        <palavra>Luiz Gonzaga</palavra>
+        <palavra>Cássia Eller</palavra>
+        <palavra>Nelson Gonçalves</palavra>
+        <palavra>Roberto Carlos</palavra>
+        <palavra>Wilson Simonal</palavra>
+        <palavra>Elis Regina</palavra>
+        <palavra>Rita Lee</palavra>
+        <palavra>Kéfera Buchmann</palavra>
+        <palavra>Mulher Melancia</palavra>
+        <palavra>Vera Fischer</palavra>
+        <palavra>Mc Gui</palavra>
+        <palavra>Marcelo Tas</palavra>
+        <palavra>Marco Luque</palavra>
+        <palavra>Rafael Cortez</palavra>
+        <palavra>Felipe Andreoli</palavra>
+        <palavra>Oscar Filho</palavra>
+        <palavra>Gloria Pires</palavra>
+        <palavra>Juliana Paes</palavra>
+        <palavra>Ricardo Texeira</palavra>
+        <palavra>Vladimir Putin</palavra>
+        <palavra>Daniela Mercury</palavra>
+        <palavra>Sandy</palavra>
+        <palavra>Vitor Belfort</palavra>
+        <palavra>Gilmar Mendes</palavra>
+        <palavra>José Saramago</palavra>
+        <palavra>Cesar Cielo</palavra>
+        <palavra>Beyoncé</palavra>
+        <palavra>Alinne Moraes</palavra>
+        <palavra>Scheila Carvalho</palavra>
+        <palavra>Vinny</palavra>
+        <palavra>Wagner Moura</palavra>
+        <palavra>Jesus Luz</palavra>
+        <palavra>Reynaldo Gianecchini</palavra>
+        <palavra>Roberto Justus</palavra>
+        <palavra>Marta</palavra>
+        <palavra>Hebe Camargo</palavra>
+        <palavra>Zacarias</palavra>
+        <palavra>Mussum</palavra>
+        <palavra>Renato Aragão</palavra>
+        <palavra>Dedé Santana</palavra>
+        <palavra>Pe. Fábio de Melo</palavra>
+        <palavra>Dercy Gonçalves</palavra>
+        <palavra>Romário</palavra>
+        <palavra>Joelma</palavra>
+        <palavra>Ximbinha</palavra>
+        <palavra>Marcos Pontes</palavra>
+        <palavra>Pe. Marcelo Rossi</palavra>
+        <palavra>RR Soares</palavra>
+        <palavra>Rogério Ceni</palavra>
+        <palavra>Ciro Gomes</palavra>
+    </tema>
+    <tema nome="Anos 80">
+        <palavra>He-man</palavra>
+        <palavra>Red Hot Chilli Pepers</palavra>
+        <palavra>Meu pequeno poney</palavra>
+        <palavra>Thundercats</palavra>
+        <palavra>Walkman</palavra>
+        <palavra>Queen</palavra>
+        <palavra>Família Dinossauro</palavra>
+        <palavra>Videocassete</palavra>
+        <palavra>Aquaplay</palavra>
+        <palavra>Guns N&apos; Roses</palavra>
+        <palavra>Thriller</palavra>
+        <palavra>Bozo</palavra>
+        <palavra>Fofolete</palavra>
+        <palavra>Gênius</palavra>
+        <palavra>Like a Virgin</palavra>
+        <palavra>IBM</palavra>
+        <palavra>Pogobol</palavra>
+        <palavra>Ursinhos Carinhosos</palavra>
+        <palavra>Tancredo Neves</palavra>
+        <palavra>Atari</palavra>
+        <palavra>Kichute</palavra>
+        <palavra>Master System</palavra>
+        <palavra>Take on Me</palavra>
+        <palavra>Queda do Muro de Berlim</palavra>
+        <palavra>Atentado contra João Paulo II</palavra>
+        <palavra>Michael Jackson</palavra>
+        <palavra>AC-DC</palavra>
+        <palavra>Push Pop</palavra>
+        <palavra>Playmobil</palavra>
+        <palavra>José Sarney</palavra>
+        <palavra>Madona</palavra>
+        <palavra>Diretas Já</palavra>
+        <palavra>Fundação do PT</palavra>
+        <palavra>Criação do CD</palavra>
+        <palavra>Vai-vem</palavra>
+        <palavra>Autorama</palavra>
+        <palavra>Cazuza</palavra>
+        <palavra>Pense Bem</palavra>
+        <palavra>Belchior</palavra>
+        <palavra>Morte de John Lennon</palavra>
+        <palavra>Macaco Murphy</palavra>
+        <palavra>Super Mario</palavra>
+        <palavra>Zelda</palavra>
+        <palavra>Akira</palavra>
+        <palavra>Galinha da Maggi</palavra>
+        <palavra>Pac-Man</palavra>
+        <palavra>Tetris</palavra>
+        <palavra>Nelson Piquet</palavra>
+        <palavra>Ayrton Senna</palavra>
+        <palavra>Gremlins</palavra>
+        <palavra>Fofão</palavra>
+        <palavra>Magic Johnson</palavra>
+        <palavra>Michael Jordan</palavra>
+        <palavra>Lango Lango</palavra>
+        <palavra>Caça-Fantasmas</palavra>
+        <palavra>De Volta Para o Futuro</palavra>
+        <palavra>Pula Pirata</palavra>
+        <palavra>Boneca Menina flor</palavra>
+        <palavra>Mini Coca-Cola</palavra>
+        <palavra>Mola Maluca</palavra>
+        <palavra>Topo Gigio</palavra>
+        <palavra>Turbo Vídeo Driver</palavra>
+        <palavra>Chaves</palavra>
+        <palavra>Mão Biônica</palavra>
+        <palavra>Ronald Reagan</palavra>
+        <palavra>Bon Jovi</palavra>
+        <palavra>Fim da TV Tupi</palavra>
+        <palavra>Metallica</palavra>
+        <palavra>Os Goonies</palavra>
+        <palavra>Boneco Falcon</palavra>
+        <palavra>Gorbachev</palavra>
+        <palavra>Menudo</palavra>
+        <palavra>Duran Duran</palavra>
+        <palavra>Highlander</palavra>
+        <palavra>Windows</palavra>
+        <palavra>Macintosh</palavra>
+        <palavra>Ombreiras</palavra>
+        <palavra>Xuxa</palavra>
+        <palavra>Paquitas</palavra>
+        <palavra>Slap Bracelets</palavra>
+        <palavra>Karatê Kid</palavra>
+        <palavra>RoboCop</palavra>
+        <palavra>Tetris</palavra>
+        <palavra>A História Sem Fim</palavra>
+        <palavra>MacGyver</palavra>
+        <palavra>Esquadrão Classe A</palavra>
+        <palavra>Cubo Mágico</palavra>
+        <palavra>Comandos Em Ação</palavra>
+        <palavra>It’s Raining Men</palavra>
+        <palavra>Pip Pop</palavra>
+        <palavra>Cara a Cara</palavra>
+        <palavra>Flashdance</palavra>
+        <palavra>Prince</palavra>
+        <palavra>Super Trunfo</palavra>
+        <palavra>Caverna do Dragão</palavra>
+        <palavra>Banco Imobiliário</palavra>
+        <palavra>Pequeno Arquiteto</palavra>
+        <palavra>Pega-peixe</palavra>
+        <palavra>ET, o Extraterrestre</palavra>
+        <palavra>Jogo Pula Macaco</palavra>
+        <palavra>Alf, o ETeimoso</palavra>
+        <palavra>Punky, a Levada da Breca</palavra>
+        <palavra>Jaspion</palavra>
+        <palavra>Jiraiya</palavra>
+        <palavra>Changeman</palavra>
+        <palavra>Mario</palavra>
+        <palavra>Chucky, o brinquedo assassino</palavra>
+        <palavra>Duro de Matar</palavra>
+        <palavra>Transformers</palavra>
+        <palavra>Curtindo a Vida Adoidado</palavra>
+        <palavra>Balão Mágico</palavra>
+        <palavra>Rambo</palavra>
+        <palavra>O Predador</palavra>
+        <palavra>A Hora do Pesadelo</palavra>
+        <palavra>A Lagoa Azul</palavra>
+        <palavra>Sexta-feira 13</palavra>
+        <palavra>Clube dos Cinco</palavra>
+        <palavra>Querida, Encolhi as Crianças</palavra>
+        <palavra>Blade Runner</palavra>
+        <palavra>Besourossuco</palavra>
+        <palavra>Conga</palavra>
+        <palavra>Um Morto Muito Louco</palavra>
+        <palavra>The Police</palavra>
+        <palavra>Slayer</palavra>
+        <palavra>Anthrax</palavra>
+        <palavra>Ratos de Porão</palavra>
+        <palavra>Titãs</palavra>
+        <palavra>14 Bis</palavra>
+        <palavra>Ultraje a Rigor</palavra>
+        <palavra>Kid Abelha</palavra>
+        <palavra>Legião Urbana</palavra>
+        <palavra>Rock in Rio</palavra>
+        <palavra>Xou da Xuxa</palavra>
+        <palavra>Blitz</palavra>
+        <palavra>Lulu Santos</palavra>
+        <palavra>Paralamas do Sucesso</palavra>
+        <palavra>Capital Inicial</palavra>
+        <palavra>Barão Vermelho</palavra>
+        <palavra>RPM</palavra>
+        <palavra>Ira!</palavra>
+        <palavra>Mulher Nota 1000</palavra>
+        <palavra>Olimpíadas de Seoul</palavra>
+        <palavra>Domingão do Faustão</palavra>
+        <palavra>Tocantins</palavra>
+        <palavra>Petshop Boys</palavra>
+        <palavra>Cyndi Lauper</palavra>
+        <palavra>Descoberta da AIDS</palavra>
+        <palavra>Chernobil</palavra>
+        <palavra>Cometa Halley</palavra>
+        <palavra>Guerra das Malvinas</palavra>
+        <palavra>Rondônia</palavra>
+        <palavra>Constituição de 88</palavra>
+        <palavra>Plano Cruzado</palavra>
+        <palavra>Iron Maiden</palavra>
+        <palavra>Chacrinha</palavra>
+        <palavra>Chokito</palavra>
+        <palavra>Os Trapalhões</palavra>
+        <palavra>Clube da Criança</palavra>
+        <palavra>Sepultura</palavra>
+        <palavra>Trem da Alegria</palavra>
+        <palavra>Maradona</palavra>
+        <palavra>La mano de diós</palavra>
+        <palavra>Pirocoptéro</palavra>
+        <palavra>Banda Dominó</palavra>
+        <palavra>Vamp</palavra>
+        <palavra>Que Rei Sou Eu?</palavra>
+        <palavra>Indiana Jones</palavra>
+        <palavra>Morte de Luiz Gonzaga</palavra>
+        <palavra>Live Aid</palavra>
+        <palavra>Engenheiros do Havaí</palavra>
+        <palavra>We Are The World</palavra>
+        <palavra>Um Tira da Pesada</palavra>
+        <palavra>SBT</palavra>
+        <palavra>Fim da União Soviética</palavra>
+        <palavra>Perestroika</palavra>
+        <palavra>Loucademia de Polícia</palavra>
+        <palavra>Exterminador do Futuro</palavra>
+        <palavra>Criança Esperança</palavra>
+        <palavra>Scarface</palavra>
+        <palavra>O Iluminado</palavra>
+        <palavra>O nome da rosa</palavra>
+        <palavra>Crocodilo Dundee</palavra>
+        <palavra>Um Príncipe em Nova York</palavra>
+        <palavra>Apertem os Cintos que o Piloto Sumiu</palavra>
+        <palavra>Footloose</palavra>
+        <palavra>Fim da Guerra Fria</palavra>
+        <palavra>Assassinato de John Lennon</palavra>
+        <palavra>Mara Maravilha</palavra>
+        <palavra>Garota Rosa Choque</palavra>
+        <palavra>Viva o Gordo</palavra>
+        <palavra>Mestre dos Brinquedos</palavra>
+        <palavra>Conan, O Bárbaro</palavra>
+        <palavra>Quero Ser Grande</palavra>
+        <palavra>Máquina Mortífera</palavra>
+        <palavra>A Vingança dos Nerds</palavra>
+        <palavra>Dolph Lundgren</palavra>
+        <palavra>Zé Gotinha</palavra>
+        <palavra>Depeche Mode</palavra>
+        <palavra>New Order</palavra>
+        <palavra>Mundial da Argentina</palavra>
+        <palavra>Olimpíadas de Moscou</palavra>
+        <palavra>Padrão da Ethernet</palavra>
+        <palavra>Nave Colúmbia</palavra>
+        <palavra>AIDS</palavra>
+        <palavra>Ilhas Malvinas</palavra>
+        <palavra>Rede Tupi</palavra>
+        <palavra>Raul Seixas</palavra>
+        <palavra>Chico Mendes</palavra>
+        <palavra>John Lennon</palavra>
+        <palavra>Guerra Fria</palavra>
+        <palavra>Smurfs</palavra>
+        <palavra>Os Simpsons</palavra>
+        <palavra>Star Wars</palavra>
+        <palavra>Barbie</palavra>
+        <palavra>Susi</palavra>
+        <palavra>Papa João Paulo II</palavra>
+        <palavra>Itaipu</palavra>
+        <palavra>Amapá</palavra>
+        <palavra>Back Black</palavra>
+        <palavra>River Waid</palavra>
+        <palavra>Copa na Espanha</palavra>
+        <palavra>Tri da Itália</palavra>
+        <palavra>Copa no México</palavra>
+        <palavra>Bi da Argentina</palavra>
+    </tema>
+    <tema nome="Anos 90">
+        <palavra>Fichas telefônicas</palavra>
+        <palavra>Tazos</palavra>
+        <palavra>Relógio Champion</palavra>
+        <palavra>Geloucos</palavra>
+        <palavra>Power Rangers</palavra>
+        <palavra>Doug</palavra>
+        <palavra>S.O.S. Malibu</palavra>
+        <palavra>Barrados no Baile</palavra>
+        <palavra>Banheira do Gugu</palavra>
+        <palavra>Tiririca</palavra>
+        <palavra>Mamonas Assassinas</palavra>
+        <palavra>O Silêncio dos Inocentes</palavra>
+        <palavra>É o Tchan</palavra>
+        <palavra>A Família Addams</palavra>
+        <palavra>Nirvana</palavra>
+        <palavra>Dragon Ball Z</palavra>
+        <palavra>Cavaleiros do Zodíaco</palavra>
+        <palavra>Mundo da Lua</palavra>
+        <palavra>American Pie</palavra>
+        <palavra>Space Jam</palavra>
+        <palavra>Animaniacs</palavra>
+        <palavra>Tiny Toons</palavra>
+        <palavra>Freakazoid!</palavra>
+        <palavra>Toy Story</palavra>
+        <palavra>Tri de Ayrton Senna</palavra>
+        <palavra>Olimpíadas em Barcelona</palavra>
+        <palavra>Morte de Ayrton Senna</palavra>
+        <palavra>Tetra do Brasil</palavra>
+        <palavra>Ovelha Dolly</palavra>
+        <palavra>DVD</palavra>
+        <palavra>Google</palavra>
+        <palavra>Invasão do Iraque</palavra>
+        <palavra>Guerra do Kosovo</palavra>
+        <palavra>Fim da URSS</palavra>
+        <palavra>Impeachment de Collor</palavra>
+        <palavra>ECO 92</palavra>
+        <palavra>Plebiscito</palavra>
+        <palavra>FHC</palavra>
+        <palavra>Nelson Mandela</palavra>
+        <palavra>Plano Real</palavra>
+        <palavra>Vale do Rio Doce</palavra>
+        <palavra>Euro</palavra>
+        <palavra>Raimundos</palavra>
+        <palavra>Planet Hemp</palavra>
+        <palavra>Charlie Brown Jr.</palavra>
+        <palavra>Dire Straits</palavra>
+        <palavra>Pearl Jam</palavra>
+        <palavra>Scorpions</palavra>
+        <palavra>Metálica</palavra>
+        <palavra>A-ha</palavra>
+        <palavra>Iron Maiden</palavra>
+        <palavra>Green Day</palavra>
+        <palavra>Jorge Ben Jor</palavra>
+        <palavra>Zeca Pagodinho</palavra>
+        <palavra>Roberto Carlos</palavra>
+        <palavra>Tim Maia</palavra>
+        <palavra>Gabriel, o Pensador</palavra>
+        <palavra>Leandro e Leonardo</palavra>
+        <palavra>Marisa Monte</palavra>
+        <palavra>Caetano Veloso</palavra>
+        <palavra>Shakira</palavra>
+        <palavra>Cristina Aguilera</palavra>
+        <palavra>Céline Dion</palavra>
+        <palavra>Cavalo de Fogo</palavra>
+        <palavra>Pokémon</palavra>
+        <palavra>Tartarugas Ninja</palavra>
+        <palavra>Os Simpsons</palavra>
+        <palavra>Yu Yu Hakusho</palavra>
+        <palavra>Digimon</palavra>
+        <palavra>Tamagotchi</palavra>
+        <palavra>Carga Pesada</palavra>
+        <palavra>Sai de baixo</palavra>
+        <palavra>Show da Xuxa</palavra>
+        <palavra>TV Colosso</palavra>
+        <palavra>Rockgol</palavra>
+        <palavra>Casseta e Planeta</palavra>
+        <palavra>Aqui e Agora</palavra>
+        <palavra>Programa do Ratinho</palavra>
+        <palavra>A lista de Schindler</palavra>
+        <palavra>Parque dos Dinossauros</palavra>
+        <palavra>Harry Potter</palavra>
+        <palavra>Guerra do Golfo</palavra>
+        <palavra>Mikhail Gorbachev</palavra>
+        <palavra>Perestroika</palavra>
+        <palavra>Terremoto em Kobe</palavra>
+        <palavra>Protocolo de Kyoto</palavra>
+        <palavra>El Niño</palavra>
+        <palavra>Fim da Guerra Fria</palavra>
+        <palavra>Internet</palavra>
+        <palavra>Caras Pintadas</palavra>
+        <palavra>Internet Explorer</palavra>
+        <palavra>Java</palavra>
+        <palavra>amazon.com</palavra>
+        <palavra>AOL</palavra>
+        <palavra>Mercado Livre</palavra>
+        <palavra>Yahoo!</palavra>
+        <palavra>Linux</palavra>
+        <palavra>PlayStation</palavra>
+        <palavra>Supernintendo</palavra>
+        <palavra>Mega Drive</palavra>
+        <palavra>Projeto Genoma Humano</palavra>
+        <palavra>Telescópio Hubble</palavra>
+        <palavra>Cometa Hale-Bopp </palavra>
+        <palavra>Estação Espacial Internacional</palavra>
+        <palavra>Romário</palavra>
+        <palavra>Genocídio de Ruanda</palavra>
+        <palavra>Primeira Guerra da Chechênia</palavra>
+        <palavra>Mercosul</palavra>
+        <palavra>Kurt Cobain</palavra>
+        <palavra>Morte de Cazuza</palavra>
+        <palavra>Morte de Freddie Mercury</palavra>
+        <palavra>Morte da Princesa Diana </palavra>
+        <palavra>Morte da Madre Teresa</palavra>
+        <palavra>Massacre de Columbine</palavra>
+        <palavra>Morte de Renato Russo</palavra>
+        <palavra>Linkin Park</palavra>
+        <palavra>Coldplay</palavra>
+        <palavra>Lambada</palavra>
+        <palavra>The Offspring</palavra>
+        <palavra>Rainha da Sucata</palavra>
+        <palavra>Zezé di Camargo e Luciano</palavra>
+        <palavra>Raça Negra</palavra>
+        <palavra>Exaltasamba</palavra>
+        <palavra>Molejo</palavra>
+        <palavra>Só Pra Contrariar</palavra>
+        <palavra>Banda Eva</palavra>
+        <palavra>Ivete Sangalo</palavra>
+        <palavra>Claudinho e Buchecha</palavra>
+        <palavra>Carandiru</palavra>
+        <palavra>Skank</palavra>
+        <palavra>Jota Quest</palavra>
+        <palavra>&apos;N Sync</palavra>
+        <palavra>Friends</palavra>
+        <palavra>Sailor Moon</palavra>
+        <palavra>Sakura Card Captors</palavra>
+        <palavra>Homem Aranha</palavra>
+        <palavra>MTV Brasil</palavra>
+        <palavra>Beavis and Butt-Head </palavra>
+        <palavra>South Park </palavra>
+        <palavra>Family Guy </palavra>
+        <palavra>Escolinha do Professor Raimundo</palavra>
+        <palavra>Roda Viva</palavra>
+        <palavra>Castelo Rá-Tim-Bum</palavra>
+        <palavra>O Rei do Gado</palavra>
+        <palavra>Maria do Bairro </palavra>
+        <palavra>A Usurpadora</palavra>
+        <palavra>Chiquititas</palavra>
+        <palavra>Nintendo 64</palavra>
+        <palavra>Dreamcast</palavra>
+        <palavra>Doom</palavra>
+        <palavra>Furacão 2000</palavra>
+        <palavra>The Sims</palavra>
+        <palavra>Beto Carrero World</palavra>
+        <palavra>Spice Girls</palavra>
+        <palavra>Pochetes</palavra>
+        <palavra>Soja Transgênica</palavra>
+        <palavra>Windows 95</palavra>
+        <palavra>Britney Spears</palavra>
+        <palavra>Titanic</palavra>
+        <palavra>Barbie Girl</palavra>
+        <palavra>BackStreet Boys</palavra>
+        <palavra>Cidade dos Anjos</palavra>
+        <palavra>Christina Aguilera</palavra>
+        <palavra>Mariah Carey</palavra>
+        <palavra>Hanson</palavra>
+        <palavra>Ricky Martin</palavra>
+        <palavra>Thalia</palavra>
+        <palavra>Destiny Child</palavra>
+        <palavra>Silverchair</palavra>
+        <palavra>Mundo de Beakman</palavra>
+        <palavra>Carrinho Trombada</palavra>
+        <palavra>mIRC</palavra>
+        <palavra>MSN</palavra>
+        <palavra>Push Pop</palavra>
+        <palavra>Sandy e Junior</palavra>
+        <palavra>Discman</palavra>
+        <palavra>Gameboy</palavra>
+        <palavra>Minigame</palavra>
+        <palavra>Mouse Óptico</palavra>
+        <palavra>Esqueceram de Mim</palavra>
+        <palavra>Edward Mãos de Tesoura</palavra>
+        <palavra>Uma Linda Mulher</palavra>
+        <palavra>Pulp Fiction</palavra>
+        <palavra>Ghost: Do Outro Lado da Vida</palavra>
+        <palavra>Forrest Gump</palavra>
+        <palavra>Clube da Luta</palavra>
+        <palavra>O Sexto Sentido</palavra>
+        <palavra>O Rei Leão</palavra>
+        <palavra>Matrix</palavra>
+        <palavra>Free Willy</palavra>
+        <palavra>Os Batutinhas</palavra>
+        <palavra>O Máskara</palavra>
+        <palavra>Beleza Americana</palavra>
+        <palavra>Coração Valente</palavra>
+        <palavra>Jumanji</palavra>
+        <palavra>MIB</palavra>
+        <palavra>Advogado do Diabo</palavra>
+        <palavra>A Vida é Bela</palavra>
+        <palavra>A Bruxa de Blair</palavra>
+        <palavra>Débi e Loide</palavra>
+    </tema>
+    <tema nome="Anos 2000">
+        <palavra>Mc Marcinho</palavra>
+        <palavra>Startac</palavra>
+        <palavra>11 de setembro</palavra>
+        <palavra>Barack Obama</palavra>
+        <palavra>Morte de Saddam Hussein</palavra>
+        <palavra>João Paulo II</palavra>
+        <palavra>Bento XVI</palavra>
+        <palavra>Palmtop</palavra>
+        <palavra>Lula</palavra>
+        <palavra>Penta do Brasil</palavra>
+        <palavra>Guerra do Iraque</palavra>
+        <palavra>Windows XP</palavra>
+        <palavra>Iphone</palavra>
+        <palavra>YouTube</palavra>
+        <palavra>Facebook</palavra>
+        <palavra>Orkut</palavra>
+        <palavra>Ubuntu</palavra>
+        <palavra>MySpace</palavra>
+        <palavra>Wikipédia</palavra>
+        <palavra>Blog</palavra>
+        <palavra>PenDrive</palavra>
+        <palavra>Twitter</palavra>
+        <palavra>LinkedIn</palavra>
+        <palavra>Pan do Rio 2007</palavra>
+        <palavra>TV LCD</palavra>
+        <palavra>Ronaldinho Gaúcho</palavra>
+        <palavra>Senhor dos Anéis</palavra>
+        <palavra>Avatar</palavra>
+        <palavra>George W. Bush</palavra>
+        <palavra>Gustavo Kuerten</palavra>
+        <palavra>Gisele Bündchen</palavra>
+        <palavra>Tropa de Elite</palavra>
+        <palavra>Legalmente Loira</palavra>
+        <palavra>As Branquelas</palavra>
+        <palavra>X-Men</palavra>
+        <palavra>High School Musical</palavra>
+        <palavra>Meninas Malvadas</palavra>
+        <palavra>PlayStation 2</palavra>
+        <palavra>PlayStation 3</palavra>
+        <palavra>Xbox 360</palavra>
+        <palavra>Bug do Milênio</palavra>
+        <palavra>Amy Winehouse</palavra>
+        <palavra>Morte de Michael Jackson</palavra>
+        <palavra>Susan Boyle</palavra>
+        <palavra>Ônibus 174</palavra>
+        <palavra>Kanye West</palavra>
+        <palavra>Chacina da Candelária</palavra>
+        <palavra>Hey Ya!</palavra>
+        <palavra>Black Eyed Peas</palavra>
+        <palavra>Mariah Carey</palavra>
+        <palavra>Pimenta Neves</palavra>
+        <palavra>Submarino Kursk</palavra>
+        <palavra>No Limite</palavra>
+        <palavra>Rubens Barrichello</palavra>
+        <palavra>Eminem</palavra>
+        <palavra>Michael Schumacher</palavra>
+        <palavra>Gil de Ferran</palavra>
+        <palavra>Ameaça Fantasma</palavra>
+        <palavra>Guerra dos Clones</palavra>
+        <palavra>Vingança dos Sith</palavra>
+        <palavra>Escola do Rock</palavra>
+        <palavra>O Auto da Compadecida</palavra>
+        <palavra>Central do Brasil</palavra>
+        <palavra>Lisbela e o Prisioneiro</palavra>
+        <palavra>Michael Bay</palavra>
+        <palavra>Copa João Havelange</palavra>
+        <palavra>Skype</palavra>
+        <palavra>Counter Strike</palavra>
+        <palavra>Banda Larga</palavra>
+        <palavra>Tiger Woods</palavra>
+        <palavra>Jogos Olímpicos em Sidney</palavra>
+        <palavra>Sonda Spirit</palavra>
+        <palavra>Prião</palavra>
+        <palavra>Jogos Olímpicos em Atenas</palavra>
+        <palavra>Bin Laden</palavra>
+        <palavra>Morte de Ronald Reagen</palavra>
+        <palavra>Morte de Iasser Arafat</palavra>
+        <palavra>Hosni Mubarak</palavra>
+        <palavra>Angela Merkel</palavra>
+        <palavra>Furacão Katrina</palavra>
+        <palavra>Walt Disney World</palavra>
+        <palavra>Michelle Bachelet</palavra>
+        <palavra>Bola de Fogo</palavra>
+        <palavra>Tetra da Itália</palavra>
+        <palavra>Freedom Tower</palavra>
+        <palavra>Morte de Augusto Pinochet</palavra>
+        <palavra>Guitar Hero</palavra>
+        <palavra>FarCry</palavra>
+        <palavra>Bananas de Pijama</palavra>
+        <palavra>Teletubbies</palavra>
+        <palavra>Zoboomafoo</palavra>
+        <palavra>Hamtaro</palavra>
+        <palavra>Bob Esponja</palavra>
+        <palavra>Três Espiãs Demais</palavra>
+        <palavra>Jackie Chan</palavra>
+        <palavra>Rouge</palavra>
+        <palavra>Rebeldes</palavra>
+        <palavra>Floribella</palavra>
+        <palavra>MP3 Player</palavra>
+        <palavra>Imagem e Ação</palavra>
+        <palavra>Barney e Seus Amigos</palavra>
+        <palavra>Dexter</palavra>
+        <palavra>Padrinhos Mágicos</palavra>
+        <palavra>Meninas Super Poderosas</palavra>
+        <palavra>Supercampeões</palavra>
+        <palavra>Castelo Rá-Tim-Bum</palavra>
+        <palavra>Mocinha</palavra>
+        <palavra>Pokémon</palavra>
+        <palavra>Digimon</palavra>
+        <palavra>Os Simpsons</palavra>
+        <palavra>Coragem, o Cão Covarde</palavra>
+        <palavra>Lego</palavra>
+        <palavra>Bruna Surfistinha</palavra>
+        <palavra>Love Generation</palavra>
+        <palavra>O Bicho de Sete Cabeças</palavra>
+        <palavra>O Clone</palavra>
+        <palavra>Desejo de Anita</palavra>
+        <palavra>Felipe Dylon</palavra>
+        <palavra>Big Brother Brasil</palavra>
+        <palavra>Vagabanda</palavra>
+        <palavra>Show do Milhão</palavra>
+        <palavra>Disney CRUJ</palavra>
+        <palavra>Crazy Frog</palavra>
+        <palavra>Lava Rápido Hot Wheels</palavra>
+        <palavra>Kipling</palavra>
+        <palavra>Diskman</palavra>
+        <palavra>Ipod</palavra>
+        <palavra>Smallville</palavra>
+        <palavra>NX Zero</palavra>
+        <palavra>Avril Lavigne</palavra>
+        <palavra>Hannah Montana</palavra>
+        <palavra>O Diabo Veste Prada</palavra>
+        <palavra>Se Eu Fosse Você</palavra>
+        <palavra>Bonde do Tigrão</palavra>
+        <palavra>Tribalistas</palavra>
+        <palavra>Yu-Gi-Oh</palavra>
+        <palavra>Jogos Olímpicos em Pequim</palavra>
+        <palavra>Égua Pocotó</palavra>
+        <palavra>Revolução Jasmim</palavra>
+        <palavra>iPad</palavra>
+        <palavra>Terremoto no Haiti</palavra>
+        <palavra>Dança da Motinha</palavra>
+        <palavra>Caldeirão do Huck</palavra>
+        <palavra>Lacraia</palavra>
+        <palavra>Sob Nova Direção</palavra>
+        <palavra>A Diarista</palavra>
+        <palavra>Os Normais</palavra>
+        <palavra>Katinguelê</palavra>
+        <palavra>Casa dos Artistas</palavra>
+        <palavra>Libertadores do Boca Juniors</palavra>
+        <palavra>Anna Julia</palavra>
+        <palavra>Euro</palavra>
+        <palavra>Guerra do Afeganistão</palavra>
+        <palavra>VoIP</palavra>
+        <palavra>Câmera Digital</palavra>
+        <palavra>ICQ</palavra>
+        <palavra>Mozilla Firefox</palavra>
+        <palavra>Google Chrome</palavra>
+        <palavra>Colisor de Hádrons</palavra>
+        <palavra>Crepúsculo</palavra>
+        <palavra>Harry Potter</palavra>
+        <palavra>Transformers</palavra>
+        <palavra>Marley e Eu</palavra>
+        <palavra>Cinema 3D</palavra>
+        <palavra>Todo Mundo em Pânico</palavra>
+        <palavra>Torres Gêmeas</palavra>
+        <palavra>Xuxa Requebra</palavra>
+        <palavra>cilada.com</palavra>
+        <palavra>Tati Quebra Barraco</palavra>
+        <palavra>Wii</palavra>
+        <palavra>Game Cube</palavra>
+        <palavra>Calça Saint-Tropez</palavra>
+        <palavra>Calça Boca de Sino</palavra>
+        <palavra>Xuxa e os Duendes</palavra>
+        <palavra>Sistema Android</palavra>
+        <palavra>Smartphones</palavra>
+        <palavra>Eutanásia</palavra>
+        <palavra>Protocolo de Quioto</palavra>
+        <palavra>Nicolau Neto</palavra>
+        <palavra>Independência de Kosovo</palavra>
+        <palavra>Elián González</palavra>
+        <palavra>Gripe aviária</palavra>
+        <palavra>Blu-ray</palavra>
+        <palavra>Pittagate</palavra>
+        <palavra>Windows Vista</palavra>
+        <palavra>Windows 7</palavra>
+        <palavra>Ronaldo</palavra>
+        <palavra>Google Earth</palavra>
+        <palavra>Messi</palavra>
+        <palavra>Cristiano Ronaldo</palavra>
+        <palavra>Projeto Genoma</palavra>
+        <palavra>Olimpíadas de Atenas</palavra>
+        <palavra>Kaká</palavra>
+        <palavra>Jay-Z</palavra>
+        <palavra>Shakira</palavra>
+        <palavra>Christina Aguilera</palavra>
+        <palavra>Britney Spears</palavra>
+        <palavra>TV Globinho</palavra>
+        <palavra>Rivaldo</palavra>
+        <palavra>Cafu</palavra>
     </tema>
 </temas>
