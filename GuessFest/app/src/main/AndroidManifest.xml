@@ -11,14 +11,17 @@
         android:hardwareAccelerated="false"
         android:largeHeap="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".listTheme.ListThemeActivity">
+        <activity android:name=".initialScreen.InitialScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name="com.example.victorleal.guessfest.listTheme.ListThemeActivity"
+            >
+        </activity>
         <activity
             android:name="com.example.victorleal.guessfest.currentGame.GameController"
             >
@@ -29,6 +32,10 @@
         </activity>
         <activity
             android:name="com.example.victorleal.guessfest.currentGame.GameOverActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.example.victorleal.guessfest.initialScreen.ResultsActivity"
             >
         </activity>
     </application>
