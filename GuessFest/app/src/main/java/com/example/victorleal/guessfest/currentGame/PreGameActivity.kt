@@ -14,7 +14,6 @@ class PreGameActivity : AppCompatActivity() {
         setContentView(R.layout.pre_game)
 
 
-        Log.i("Thema Escolhido", getIntent().getStringExtra("THEME_NAME"))
 
     }
 

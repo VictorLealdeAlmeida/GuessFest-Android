@@ -180,7 +180,7 @@ class GameController : AppCompatActivity() {
 
     fun startGame(){
         gameStart = true
-        startTimer(20000)
+        startTimer(10000)
         changeTeam()
 
         //Setar primeira palavra
@@ -344,6 +344,7 @@ class GameController : AppCompatActivity() {
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.putExtra("BLUE_POINTS", bluePoints.toString());
         intent.putExtra("PINK_POINTS", pinkPoints.toString());
+        intent.putExtra("THEME_NAME3", getIntent().getStringExtra("THEME_NAME2"));
 
 
         this.startActivity(intent)
