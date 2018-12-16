@@ -11,6 +11,7 @@ import android.view.animation.AlphaAnimation
 import android.R.id.edit
 import android.content.SharedPreferences
 import android.content.Context
+import android.os.ResultReceiver
 import android.preference.PreferenceManager
 import android.util.Log
 import java.time.LocalDate
@@ -30,6 +31,7 @@ class GameOverActivity : AppCompatActivity() {
 
 
         setWin()
+       // setAnimation()
     }
 
     fun setWin(){
@@ -113,7 +115,11 @@ class GameOverActivity : AppCompatActivity() {
     fun toMenu(view: View){
         val intent = Intent(this, ListThemeActivity :: class.java)
 
+        this.startActivity(intent)
+    }
 
+    fun toResultsGameOver(view: View){
+        val intent = Intent(this, ResultReceiver :: class.java)
 
         this.startActivity(intent)
     }

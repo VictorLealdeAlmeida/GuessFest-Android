@@ -1,23 +1,13 @@
 package com.example.victorleal.guessfest.initialScreen
 
 import android.content.Context
-import android.content.Intent
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
-import android.os.AsyncTask
-import android.util.Log
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.support.v7.widget.RecyclerView
 import com.example.victorleal.guessfest.R
-import com.example.victorleal.guessfest.currentGame.GameController
-import kotlinx.android.synthetic.main.card_theme.view.*
-import android.support.v7.app.AppCompatActivity
-import android.support.v4.content.ContextCompat
 import kotlinx.android.synthetic.main.card_result.view.*
-import kotlinx.android.synthetic.main.game_over.view.*
 
 
 class AdapterCardResult (private val results: List<ResultCard>, private val context: Context): RecyclerView.Adapter<AdapterCardResult.ViewHolderResult>(){
@@ -27,9 +17,9 @@ class AdapterCardResult (private val results: List<ResultCard>, private val cont
        // val categories = itemView.theme_categories_result
         val theme = itemView.theme_name_result
         val image = itemView.theme_image_result
-        val pinkPoints = itemView.points_pink
-        val bluePoints = itemView.points_blue
+        val score = itemView.score
         val date = itemView.date
+        var card = itemView.card_linear
 
 
     }
@@ -46,14 +36,29 @@ class AdapterCardResult (private val results: List<ResultCard>, private val cont
     override fun onBindViewHolder(holder: ViewHolderResult, position: Int) {
         val result = results[position]
         holder.date.text = result.dataTime
-        holder.theme.text = result.theme
-        holder.pinkPoints.text = result.pinkPoints
-        holder.bluePoints.text = result.bluePoints
+        holder.theme.text = result.winner
+        holder.score.text = "Rosa: " + formatMinut(result.pinkPoints.toInt()) + " X Azul: " + formatMinut(result.bluePoints.toInt())
 
         holder.image.setImageResource(getImage(result.theme))
 
+        var color = "#E4B64F"
+        if (result.winner == "TIME ROSA"){
+            color = "#DF5798"
+        }else if (result.winner == "TIME AUL"){
+            color = "#57BAD9"
+        }
+
+        holder.card.setBackgroundColor(color.toColor())
+        holder.date.setBackgroundColor(color.toColor())
+        holder.image.setBackgroundColor(color.toColor())
+        holder.theme.setBackgroundColor(color.toColor())
+        holder.score.setBackgroundColor(color.toColor())
+
+        holder.date.setBackgroundColor(color.toColor())
 
     }
+
+    fun String.toColor(): Int = Color.parseColor(this)
 
     fun getImage(theme: String): Int{
 
@@ -75,6 +80,12 @@ class AdapterCardResult (private val results: List<ResultCard>, private val cont
 
 
         return 0
+    }
+
+    fun formatMinut(time: Int) : String{
+        val minutes = time / 60
+        val seconds = time % 60
+        return String.format("%d:%02d", minutes, seconds)
     }
 
 }

@@ -3,7 +3,7 @@ package com.example.victorleal.guessfest.initialScreen
 import android.content.Context
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.GridLayoutManager
+import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.util.Log
 import com.example.victorleal.guessfest.R
@@ -22,14 +22,14 @@ class ResultsActivity : AppCompatActivity() {
 
 
         val results = DataResult().sequence(this)
-        val mLayoutManager = GridLayoutManager(this, 2)
+        val mLayoutManager = LinearLayoutManager(this)
         recyclerView?.setLayoutManager(mLayoutManager)
         recyclerView?.setHasFixedSize(true)
         recyclerView?.adapter= AdapterCardResult(results, this)
 
         recyclerProducts.apply {
 
-            layoutManager = GridLayoutManager(applicationContext, 2)
+            layoutManager = LinearLayoutManager(applicationContext)
             adapter = AdapterCardResult(results, applicationContext)
         }
     }
