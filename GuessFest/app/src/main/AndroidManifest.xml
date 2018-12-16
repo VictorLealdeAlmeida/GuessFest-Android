@@ -12,6 +12,7 @@
         android:largeHeap="true"
         android:theme="@style/AppTheme">
         <activity android:name=".initialScreen.InitialScreen">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

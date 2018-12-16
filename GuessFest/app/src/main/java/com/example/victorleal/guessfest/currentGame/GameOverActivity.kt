@@ -14,6 +14,7 @@ import android.content.Context
 import android.os.ResultReceiver
 import android.preference.PreferenceManager
 import android.util.Log
+import com.example.victorleal.guessfest.initialScreen.InitialScreen
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.time.format.FormatStyle
@@ -114,6 +115,12 @@ class GameOverActivity : AppCompatActivity() {
 
     fun toMenu(view: View){
         val intent = Intent(this, ListThemeActivity :: class.java)
+
+        this.startActivity(intent)
+    }
+
+    fun toInitial(view: View){
+        val intent = Intent(this, InitialScreen :: class.java)
 
         this.startActivity(intent)
     }

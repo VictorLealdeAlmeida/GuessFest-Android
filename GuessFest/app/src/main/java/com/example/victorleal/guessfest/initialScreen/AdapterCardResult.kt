@@ -44,7 +44,7 @@ class AdapterCardResult (private val results: List<ResultCard>, private val cont
         var color = "#E4B64F"
         if (result.winner == "TIME ROSA"){
             color = "#DF5798"
-        }else if (result.winner == "TIME AUL"){
+        }else if (result.winner == "TIME AZUL"){
             color = "#57BAD9"
         }
 

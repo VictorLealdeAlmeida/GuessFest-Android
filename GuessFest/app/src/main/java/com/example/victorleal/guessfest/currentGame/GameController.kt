@@ -180,7 +180,7 @@ class GameController : AppCompatActivity() {
 
     fun startGame(){
         gameStart = true
-        startTimer(10000)
+        startTimer(30000)
         changeTeam()
 
         //Setar primeira palavra

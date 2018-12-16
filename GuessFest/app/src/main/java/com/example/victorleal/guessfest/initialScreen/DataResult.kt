@@ -25,9 +25,15 @@ class DataResult() {
     fun getCardsResult(): List<ResultCard> {
         val rts: MutableList<ResultCard> = mutableListOf()
 
-        for (i in 0 until results.size) {
-            rts.add(readDatas(i))
+        var i = results.size
+        while (i > 0){
+
+            rts.add(readDatas(i-1))
+
+            i--
         }
+
+
         Log.i("aaaaa2", rts.toString())
 
 
