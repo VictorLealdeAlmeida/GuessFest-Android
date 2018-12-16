@@ -18,6 +18,6 @@ Enquanto na troca das activities o uso de CPU cai para 0 e todo o gerenciamento 
 
 Aqui vemos o momento de pico, chegando até quase 29% no carregamento da tela.
 
-![alt text](https://github.com/VictorLealdeAlmeida/GuessFest-Android/blob/master/Mockup/cpu3.jpeg)
+![alt text](https://github.com/VictorLealdeAlmeida/GuessFest-Android/blob/master/cpu3.jpeg)
 
 Concluindo, vemos um uso bem estável de CPU durante a aplicação, considerando que é uma aplicação de tela inteira, carregando conteúdo localmente e com vários componentes gráficos. Então, não oneramos de forma significativa a performance do device e a experiência do jogo permanece estável, sem prejudicar a experiência do usuário. Acredito que poucas otimizações podem ser feitas em termos de processamento.
