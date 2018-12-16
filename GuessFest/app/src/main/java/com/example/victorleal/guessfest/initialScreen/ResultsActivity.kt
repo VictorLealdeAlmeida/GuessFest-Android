@@ -3,12 +3,16 @@ package com.example.victorleal.guessfest.initialScreen
 import android.content.Context
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.GridLayoutManager
+import android.support.v7.widget.RecyclerView
 import android.util.Log
 import com.example.victorleal.guessfest.R
+import com.example.victorleal.guessfest.listTheme.AdapterCardTheme
+import com.example.victorleal.guessfest.listTheme.CardsTheme
+import kotlinx.android.synthetic.main.activity_list_themes.*
 
-class ResultsActivity : AppCompatActivity(){
-
-    var results: MutableList<String> = mutableListOf()
+class ResultsActivity : AppCompatActivity() {
+    private val recyclerView: RecyclerView? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,70 +20,17 @@ class ResultsActivity : AppCompatActivity(){
         setContentView(R.layout.results_layout)
 
 
-        getResults()
-        readDatas()
 
-    }
+        val results = DataResult().sequence(this)
+        val mLayoutManager = GridLayoutManager(this, 2)
+        recyclerView?.setLayoutManager(mLayoutManager)
+        recyclerView?.setHasFixedSize(true)
+        recyclerView?.adapter= AdapterCardResult(results, this)
 
-    fun getResults(){
-        val preferences = this.getSharedPreferences("Prefs", Context.MODE_PRIVATE)
-        var resultWinner = preferences.getString("resultWinner", "Defs")
+        recyclerProducts.apply {
 
-        if (resultWinner == "Defs"){
-            val editor = preferences.edit()
-            resultWinner = ""
-            editor.putString("", resultWinner)
-            Log.i("aaaaa", resultWinner)
-        }else{
-            Log.i("aaaaa", resultWinner)
+            layoutManager = GridLayoutManager(applicationContext, 2)
+            adapter = AdapterCardResult(results, applicationContext)
         }
-
-        var result = ""
-
-
-        for (i in 0 until resultWinner.length) {
-
-
-            if (resultWinner[i] == '$'){
-                results.add(result)
-                result = ""
-            }else{
-                result = result + resultWinner[i]
-            }
-
-        }
-
-        Log.i("Defaults22", results[0].toString())
-    }
-
-    fun readDatas(){
-        var word = ""
-        var words: MutableList<String> = mutableListOf()
-
-
-
-        var resultActual = results[0]
-
-        for (i in 0 until resultActual.length) {
-
-
-            if (resultActual[i] == '%'){
-                words.add(word)
-                word = ""
-            }else{
-                word = word + resultActual[i]
-            }
-
-        }
-
-        Log.i("Dados", words[0])
-        Log.i("Dados", words[1])
-        Log.i("Dados", words[2])
-        Log.i("Dados", words[3])
-        Log.i("Dados", words[4])
-
-
-
-
     }
 }

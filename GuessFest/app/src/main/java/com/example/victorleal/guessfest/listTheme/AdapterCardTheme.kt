@@ -18,30 +18,30 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v4.content.ContextCompat
 
 
-class AdapterCardTheme (private val themes: List<ThemeItem>, private val context: Context): RecyclerView.Adapter<AdapterCardTheme.ViewHolderProduct>(){
+class AdapterCardTheme (private val themes: List<ThemeItem>, private val context: Context): RecyclerView.Adapter<AdapterCardTheme.ViewHolderTheme>(){
 
-    class ViewHolderProduct(itemView: View): RecyclerView.ViewHolder(itemView) {
+    class ViewHolderTheme(itemView: View): RecyclerView.ViewHolder(itemView) {
         // utilizado para referenciar os campos do layout, para assim poderem ser alterados em onBindViewHolder
         val categories = itemView.theme_categories
-        val name = itemView.theme_name
+        val theme = itemView.theme_name
         val image = itemView.theme_image
 
 
     }
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolderProduct {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolderTheme {
         // utilizado para inflar o layout do itemlista para cada item da lista de RSSs
         val view = LayoutInflater.from(context).inflate(R.layout.card_theme, parent, false)
-        return ViewHolderProduct(view)
+        return ViewHolderTheme(view)
     }
 
     override fun getItemCount(): Int {
         return themes.size
     }
 
-    override fun onBindViewHolder(holder: ViewHolderProduct, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolderTheme, position: Int) {
         val them = themes[position]
         holder.categories.text = them.value
-        holder.name.text = them.title
+        holder.theme.text = them.title
         holder.image.setImageResource(them.image)
 
 

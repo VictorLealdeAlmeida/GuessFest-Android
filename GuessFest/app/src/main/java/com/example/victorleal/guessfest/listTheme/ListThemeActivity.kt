@@ -30,9 +30,7 @@ class ListThemeActivity : AppCompatActivity() {
         recyclerView?.adapter= AdapterCardTheme(thems, this)
 
         recyclerProducts.apply {
-            // colocando para o recycle view utilizar o layout do linearlayoutmanager
-//            layoutManager = LinearLayoutManager(applicationContext)
-//            adapter = AdapterCardTheme(prods, applicationContext)
+
             layoutManager = GridLayoutManager(applicationContext, 2)
             adapter = AdapterCardTheme(thems, applicationContext)
         }
