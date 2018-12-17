@@ -120,7 +120,11 @@ class GameOverActivity : AppCompatActivity() {
     }
 
     fun toInitial(view: View){
-        val intent = Intent(this, InitialScreen :: class.java)
+        Log.i("eeeeee", "teste")
+
+        val intent = Intent(this, com.example.victorleal.guessfest.currentGame.AdsActivity :: class.java)
+
+        Log.i("eeeeee", "teste")
 
         this.startActivity(intent)
     }

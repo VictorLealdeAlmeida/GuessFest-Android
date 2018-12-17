@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
-    tools:context=".MainActivity">
+    tools:context=".currentGame.MainActivity">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerProducts"

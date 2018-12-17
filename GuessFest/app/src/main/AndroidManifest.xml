@@ -39,6 +39,10 @@
             android:name="com.example.victorleal.guessfest.initialScreen.ResultsActivity"
             >
         </activity>
+        <activity
+            android:name="com.example.victorleal.guessfest.currentGame.AdsActivity"
+            >
+        </activity>
     </application>
 
     <!-- Required for location services -->

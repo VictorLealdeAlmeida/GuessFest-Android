@@ -1,15 +1,19 @@
-package com.example.victorleal.guessfest
+package com.example.victorleal.guessfest.currentGame
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.graphics.Color
 import android.graphics.Typeface
+import android.os.CountDownTimer
 import android.support.v7.widget.CardView
 import android.util.Log
 import android.widget.TextView
 import android.widget.RelativeLayout
 import android.view.ViewGroup
 import android.widget.LinearLayout
+import com.example.victorleal.guessfest.R
+import com.example.victorleal.guessfest.listTheme.ListThemeActivity
 import com.inlocomedia.android.ads.InLocoMedia
 import com.inlocomedia.android.ads.InLocoMediaOptions
 import com.inlocomedia.android.ads.AdError
@@ -18,14 +22,14 @@ import com.inlocomedia.android.ads.interstitial.InterstitialAd
 import com.inlocomedia.android.ads.interstitial.InterstitialAdListener
 
 
-
-
-
-class MainActivity : AppCompatActivity() {
+class AdsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+
 
        // val mainLinearLayout = findViewById(R.id.cardViewThemes) as LinearLayout
         val cardLinearLayout = LinearLayout(this)
@@ -88,5 +92,42 @@ class MainActivity : AppCompatActivity() {
         val adRequest = AdRequest()
         interstitialAd.loadAd(adRequest)
 
+        Log.i("aaaa", interstitialAd.toString())
+
+        if (interstitialAd.isLoaded()) {
+            interstitialAd.show();
+        }
+
+       // toMenuAds()
+
+    }
+
+    fun toMenuAds(){
+        val intent = Intent(this, ListThemeActivity :: class.java)
+
+        this.startActivity(intent)
+    }
+
+    var timer: Timer?=null
+
+
+    private fun startTimer(){
+        timer = Timer(10);
+        timer?.start()
+    }
+
+
+    inner class Timer(miliis:Long) : CountDownTimer(miliis,1000){
+        var millisUntilFinished:Long = 0
+        override fun onFinish() {
+            toMenuAds()
+
+        }
+
+        override fun onTick(millisUntilFinished: Long) {
+            this.millisUntilFinished = millisUntilFinished
+
+
+        }
     }
 }
